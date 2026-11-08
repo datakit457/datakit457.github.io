@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://datakit457.github.io/sitemap.xml
