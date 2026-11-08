@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Get Philippines job listings as JSON (Kalibrr) and alert on new ones</title><meta name="description" content="Kalibrr&#x27;s public search endpoint returns clean JSON. Fetch Philippines job listings with Python, or get only new jobs daily with a ready-made Apify Actor."><link rel="canonical" href="https://datakit457.github.io/blog/kalibrr-jobs-api-philippines/"><meta property="og:type" content="article"><meta property="og:title" content="Get Philippines job listings as JSON (Kalibrr) and alert on new ones"><meta property="og:description" content="Kalibrr&#x27;s public search endpoint returns clean JSON. Fetch Philippines job listings with Python, or get only new jobs daily with a ready-made Apify Actor."><meta property="og:url" content="https://datakit457.github.io/blog/kalibrr-jobs-api-philippines/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Get Philippines job listings as JSON (Kalibrr) and alert on new ones"><meta name="twitter:description" content="Kalibrr&#x27;s public search endpoint returns clean JSON. Fetch Philippines job listings with Python, or get only new jobs daily with a ready-made Apify Actor."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Get Philippines job listings as JSON (Kalibrr) and alert on new ones", "description": "Kalibrr&#x27;s public search endpoint returns clean JSON. Fetch Philippines job listings with Python, or get only new jobs daily with a ready-made Apify Actor.", "datePublished": "2026-11-09", "dateModified": "2026-11-09", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/kalibrr-jobs-api-philippines/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Get Philippines job listings as JSON (Kalibrr) and alert on new ones</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned below (datakit/kalibrr-jobs-feed). The endpoint in the first example is public and you can use it yourself.</em></p>
+<p>Kalibrr is a major job board for the Philippines and Indonesia. Its public search endpoint returns clean JSON without a login, which makes it easy to feed a spreadsheet, a Slack channel or a recruiter dashboard.</p>
+<h2>Do it yourself</h2>
+<pre>import requests
+r = requests.get(
+    "https://www.kalibrr.com/kjs/job_board/search",
+    params={"limit": 20, "offset": 0, "country": "Philippines", "text": "python"},
+    headers={"User-Agent": "Mozilla/5.0"},
+).json()
+for j in r["jobs"]:
+    print(j["name"], "|", j["company_name"], "|", j["function"], "|", j["tenure"])</pre>
+<p>I ran this on 2026-11-08: the search for "python" returned 38 matches, each with title, company, job function, tenure (full time etc.), work-from-home and hybrid flags, and an HTML description. Page through results with <code>offset</code>. Be polite: add a delay between pages and cache what you fetch.</p>
+<p>What the raw endpoint does not do: remember which jobs you already saw, filter by city, or give you plain-text descriptions. You would write that yourself (store job ids in a file and diff on each run).</p>
+<h2>Or use the Actor</h2>
+<p><code>datakit/kalibrr-jobs-feed</code> does the paging, filters by keywords, cities, job function and work-from-home, strips the HTML, and in <code>newSinceLastRun</code> mode returns only jobs not seen in earlier runs with the same State name. Schedule it daily and send the output wherever you like.</p>
+<pre>curl -X POST "https://api.apify.com/v2/acts/datakit~kalibrr-jobs-feed/run-sync-get-dataset-items?token=YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"mode":"newSinceLastRun","keywords":["python"],"cities":["Makati"],"stateKey":"python-makati"}'</pre>
+<p>Use a different <code>stateKey</code> per filter set so each feed keeps its own "already seen" list.</p>
+<p><a href="https://apify.com/datakit/kalibrr-jobs-feed">Kalibrr Jobs Feed on the Apify Store</a></p>
+<h2>Limits</h2>
+<p>Kalibrr has roughly 700 live jobs at a time, so this suits a niche feed, not a big-data project. Only public job posting data is returned (no candidate profiles).</p>
+<p>More on the <a href="/tools/kalibrr-jobs-scraper/">tool page</a>.</p>
+</body></html>
