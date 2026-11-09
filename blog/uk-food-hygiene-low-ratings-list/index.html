@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>List UK food businesses with a low hygiene rating (FHRS API, Python)</title><meta name="description" content="List UK food businesses with a hygiene rating of 2 or lower using the FSA open API in Python, or a ready-made Apify Actor."><link rel="canonical" href="https://datakit457.github.io/blog/uk-food-hygiene-low-ratings-list/"><meta property="og:type" content="article"><meta property="og:title" content="List UK food businesses with a low hygiene rating (FHRS API, Python)"><meta property="og:description" content="List UK food businesses with a hygiene rating of 2 or lower using the FSA open API in Python, or a ready-made Apify Actor."><meta property="og:url" content="https://datakit457.github.io/blog/uk-food-hygiene-low-ratings-list/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="List UK food businesses with a low hygiene rating (FHRS API, Python)"><meta name="twitter:description" content="List UK food businesses with a hygiene rating of 2 or lower using the FSA open API in Python, or a ready-made Apify Actor."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "List UK food businesses with a low hygiene rating (FHRS API, Python)", "description": "List UK food businesses with a hygiene rating of 2 or lower using the FSA open API in Python, or a ready-made Apify Actor.", "datePublished": "2026-11-10", "dateModified": "2026-11-10", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/uk-food-hygiene-low-ratings-list/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>List UK food businesses with a low hygiene rating (FHRS API, Python)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/uk-new-food-business-leads). The API in the examples is the Food Standards Agency's open API and you can use it directly.</em></p>
+<p>Pest-control, deep-cleaning and compliance-consultancy firms, and local journalists, all want the same list: food businesses in an area whose hygiene rating is 2 or lower. The FSA publishes it as open data (Open Government Licence v3), no key needed.</p>
+<h2>Query it directly</h2>
+<p>Rating filters work on the <code>/Establishments</code> endpoint. <code>ratingKey=2</code> with <code>ratingOperatorKey=LessThanOrEqual</code> returns ratings 0, 1 and 2.</p>
+<pre>import requests
+H = {"x-api-version": "2", "accept": "application/json"}
+r = requests.get("https://api.ratings.food.gov.uk/Establishments", headers=H, params={
+    "localAuthorityId": 401,            # Middlesbrough; list IDs via /Authorities/basic
+    "ratingKey": 2, "ratingOperatorKey": "LessThanOrEqual",
+    "pageSize": 100, "pageNumber": 1}).json()
+print(r["meta"]["totalCount"], "businesses rated 2 or lower")
+for e in r["establishments"]:
+    print(e["BusinessName"], e["PostCode"], e["RatingValue"], e["RatingDate"][:10], e["BusinessType"])</pre>
+<p>I ran this on 2026-11-08 for Middlesbrough: 35 businesses rated 2 or lower. Each row has name, address, postcode, business type, rating, inspection date and coordinates.</p>
+<h2>Caveats</h2>
+<ul>
+<li>Ratings are a snapshot of the last inspection; a business may have improved and not yet been re-inspected. Check <code>RatingDate</code>.</li>
+<li>The data has no contact details. Treat it as a prospect or story lead, and contact businesses in line with PECR/GDPR rules.</li>
+<li>To cover a region, loop over its local authority IDs and be polite with request rate.</li>
+</ul>
+<h2>Want new businesses instead?</h2>
+<p>The same register also shows businesses that have just registered and await their first inspection. <code>datakit/uk-new-food-business-leads</code> keeps state between runs and returns only businesses not seen before, filtered by region or postcode, so you can schedule a weekly list.</p>
+<p>Store: https://apify.com/datakit/uk-new-food-business-leads · Source: https://github.com/datakit457/uk-new-food-business-leads</p>
+</body></html>
