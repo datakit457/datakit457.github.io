@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Export UK food hygiene ratings to CSV with Python (FSA open API)</title><meta name="description" content="Export every UK food business in a council area to CSV with Python using the free FSA Food Hygiene Rating API: no key needed, working code."><link rel="canonical" href="https://datakit457.github.io/blog/export-uk-food-hygiene-ratings-to-csv/"><meta property="og:type" content="article"><meta property="og:title" content="Export UK food hygiene ratings to CSV with Python (FSA open API)"><meta property="og:description" content="Export every UK food business in a council area to CSV with Python using the free FSA Food Hygiene Rating API: no key needed, working code."><meta property="og:url" content="https://datakit457.github.io/blog/export-uk-food-hygiene-ratings-to-csv/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Export UK food hygiene ratings to CSV with Python (FSA open API)"><meta name="twitter:description" content="Export every UK food business in a council area to CSV with Python using the free FSA Food Hygiene Rating API: no key needed, working code."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Export UK food hygiene ratings to CSV with Python (FSA open API)", "description": "Export every UK food business in a council area to CSV with Python using the free FSA Food Hygiene Rating API: no key needed, working code.", "datePublished": "2026-11-11", "dateModified": "2026-11-11", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/export-uk-food-hygiene-ratings-to-csv/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Export UK food hygiene ratings to CSV with Python (FSA open API)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/uk-new-food-business-leads). The API used below is the Food Standards Agency's open API and works without it.</em></p>
+<p>Want every restaurant or café in one UK council area in a spreadsheet? The FSA's Food Hygiene Rating Scheme (FHRS) API is free, needs no key, and is published under the Open Government Licence v3.</p>
+<pre>import csv, requests
+H = {"x-api-version": "2", "accept": "application/json"}
+rows, page = [], 1
+while True:
+    r = requests.get("https://api.ratings.food.gov.uk/Establishments", headers=H, timeout=30, params={
+        "localAuthorityId": 401,   # Middlesbrough; list IDs via /Authorities/basic
+        "businessTypeId": 1,       # 1 = Restaurant/Cafe/Canteen; list via /BusinessTypes
+        "pageSize": 100, "pageNumber": page}).json()
+    rows += r["establishments"]
+    if page &gt;= r["meta"]["totalPages"]:
+        break
+    page += 1
+with open("ratings.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["name", "postcode", "rating", "inspected", "type"])
+    for e in rows:
+        w.writerow([e["BusinessName"], e["PostCode"], e["RatingValue"], (e["RatingDate"] or "")[:10], e["BusinessType"]])
+print(len(rows), "rows")</pre>
+<p>Run on 2026-11-09 for Middlesbrough, this produced 243 restaurants/cafés over 3 pages. Open <code>ratings.csv</code> in Excel or import it into Google Sheets.</p>
+<h2>Notes</h2>
+<ul>
+<li><code>RatingValue</code> can be text such as "AwaitingInspection" or "Exempt", not just 0-5.</li>
+<li>Be polite: pause between pages when looping over many authorities.</li>
+<li>The data has no contact details; handle any outreach under PECR/GDPR.</li>
+<li>Want only newly registered businesses, scheduled weekly, without writing code? That's what my Actor does: https://apify.com/datakit/uk-new-food-business-leads</li>
+</ul>
+</body></html>
