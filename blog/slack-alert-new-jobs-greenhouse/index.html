@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Get a Slack alert when a company posts a new job (Greenhouse, Python)</title><meta name="description" content="Get a Slack message when a company posts a new job on Greenhouse: a short Python script using the public board API, plus a scheduled no-code option."><link rel="canonical" href="https://datakit457.github.io/blog/slack-alert-new-jobs-greenhouse/"><meta property="og:type" content="article"><meta property="og:title" content="Get a Slack alert when a company posts a new job (Greenhouse, Python)"><meta property="og:description" content="Get a Slack message when a company posts a new job on Greenhouse: a short Python script using the public board API, plus a scheduled no-code option."><meta property="og:url" content="https://datakit457.github.io/blog/slack-alert-new-jobs-greenhouse/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Get a Slack alert when a company posts a new job (Greenhouse, Python)"><meta name="twitter:description" content="Get a Slack message when a company posts a new job on Greenhouse: a short Python script using the public board API, plus a scheduled no-code option."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Get a Slack alert when a company posts a new job (Greenhouse, Python)", "description": "Get a Slack message when a company posts a new job on Greenhouse: a short Python script using the public board API, plus a scheduled no-code option.", "datePublished": "2026-11-12", "dateModified": "2026-11-12", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/slack-alert-new-jobs-greenhouse/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Get a Slack alert when a company posts a new job (Greenhouse, Python)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/ats-jobs-feed). The script below works without it.</em></p>
+<p>If you are waiting for a specific company to open a role, a 20-line script plus a Slack incoming webhook does the job. Greenhouse publishes every board as JSON at <code>https://boards-api.greenhouse.io/v1/boards/&lt;company&gt;/jobs</code>, no login needed.</p>
+<h2>The script</h2>
+<pre>import requests, json, pathlib
+
+WEBHOOK = "https://hooks.slack.com/services/XXX/YYY/ZZZ"   # your Slack incoming webhook
+BOARD, KEYWORD = "stripe", "engineer"
+seen_f = pathlib.Path("seen.json")
+seen = set(json.loads(seen_f.read_text())) if seen_f.exists() else set()
+
+jobs = requests.get(f"https://boards-api.greenhouse.io/v1/boards/{BOARD}/jobs", timeout=30).json()["jobs"]
+new = [j for j in jobs if str(j["id"]) not in seen and KEYWORD in j["title"].lower()]
+if seen and new:   # skip the alert on the very first run, which would list every open job
+    text = "\n".join(f"{j['title']} ({j['location']['name']}) {j['absolute_url']}" for j in new[:10])
+    requests.post(WEBHOOK, json={"text": text}, timeout=30)
+seen_f.write_text(json.dumps([str(j["id"]) for j in jobs]))</pre>
+<p>I ran the fetch and diff part against the Stripe board: the first run found 187 matching jobs, the second found 0. Run it from cron every few hours (<code>0 <em>/6 </em> <em> </em> python3 /path/alert.py</code>).</p>
+<h2>Caveats</h2>
+<ul>
+<li>The slug is the one in the company's careers URL (<code>boards.greenhouse.io/&lt;slug&gt;</code>). Not every company uses Greenhouse; Lever and Ashby have similar endpoints with different field names.</li>
+<li>Storing only current ids means a job that is removed and re-posted alerts again. That is usually what you want.</li>
+</ul>
+<h2>Many companies, many systems</h2>
+<p>For a watchlist across Greenhouse, Lever, Ashby, Workable and more, <code>datakit/ats-jobs-feed</code> normalizes the formats and returns only new jobs per run (<code>stateKey</code>). Run it on an Apify schedule and point a webhook at Slack.</p>
+<p><a href="https://apify.com/datakit/ats-jobs-feed">Apify Store page</a></p>
+</body></html>
