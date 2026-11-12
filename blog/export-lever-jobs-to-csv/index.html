@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Export all open jobs from a Lever careers page to CSV (Python)</title><meta name="description" content="Export every open job from a Lever careers page to CSV with a short Python script, plus a no-code option via Apify."><link rel="canonical" href="https://datakit457.github.io/blog/export-lever-jobs-to-csv/"><meta property="og:type" content="article"><meta property="og:title" content="Export all open jobs from a Lever careers page to CSV (Python)"><meta property="og:description" content="Export every open job from a Lever careers page to CSV with a short Python script, plus a no-code option via Apify."><meta property="og:url" content="https://datakit457.github.io/blog/export-lever-jobs-to-csv/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Export all open jobs from a Lever careers page to CSV (Python)"><meta name="twitter:description" content="Export every open job from a Lever careers page to CSV with a short Python script, plus a no-code option via Apify."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Export all open jobs from a Lever careers page to CSV (Python)", "description": "Export every open job from a Lever careers page to CSV with a short Python script, plus a no-code option via Apify.", "datePublished": "2026-11-13", "dateModified": "2026-11-13", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/export-lever-jobs-to-csv/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Export all open jobs from a Lever careers page to CSV (Python)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/ats-jobs-feed). The script below works without it.</em></p>
+<p>Companies that hire through Lever expose their open postings as JSON at <code>https://api.lever.co/v0/postings/&lt;company&gt;?mode=json</code>, no login or key needed. The slug is the one in the company's jobs URL (<code>jobs.lever.co/&lt;slug&gt;</code>).</p>
+<h2>The script</h2>
+<pre>import csv, requests
+
+SLUG, KEYWORD = "palantir", "engineer"
+jobs = requests.get(f"https://api.lever.co/v0/postings/{SLUG}", params={"mode": "json"}, timeout=30).json()
+
+with open("jobs.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["title", "location", "workplace", "team", "url"])
+    for j in jobs:
+        if KEYWORD in j["text"].lower():
+            c = j["categories"]
+            w.writerow([j["text"], c.get("location"), j.get("workplaceType"), c.get("team"), j["hostedUrl"]])</pre>
+<p>I ran this against the Palantir board: 305 open postings, 185 with "engineer" in the title; the first row was a hybrid London role.</p>
+<h2>Caveats</h2>
+<ul>
+<li>Fields differ by company (<code>team</code> or <code>location</code> can be missing), hence <code>.get()</code>.</li>
+<li><code>createdAt</code> is a millisecond timestamp, useful for "posted in the last 7 days" filters.</li>
+<li>A wrong slug returns an error body rather than a list; check the status code if you loop over many companies.</li>
+</ul>
+<h2>Many companies at once</h2>
+<p>For a watchlist across Lever, Greenhouse, Ashby, Workable and more, with normalized fields and only new jobs per run, see <code>datakit/ats-jobs-feed</code>.</p>
+<p><a href="https://apify.com/datakit/ats-jobs-feed">Apify Store page</a></p>
+</body></html>
