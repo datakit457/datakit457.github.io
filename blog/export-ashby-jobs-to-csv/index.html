@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Export all open jobs from an Ashby careers page to CSV (Python)</title><meta name="description" content="Export every open job from an Ashby careers page to CSV with a short Python script using the public Ashby job board API."><link rel="canonical" href="https://datakit457.github.io/blog/export-ashby-jobs-to-csv/"><meta property="og:type" content="article"><meta property="og:title" content="Export all open jobs from an Ashby careers page to CSV (Python)"><meta property="og:description" content="Export every open job from an Ashby careers page to CSV with a short Python script using the public Ashby job board API."><meta property="og:url" content="https://datakit457.github.io/blog/export-ashby-jobs-to-csv/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Export all open jobs from an Ashby careers page to CSV (Python)"><meta name="twitter:description" content="Export every open job from an Ashby careers page to CSV with a short Python script using the public Ashby job board API."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Export all open jobs from an Ashby careers page to CSV (Python)", "description": "Export every open job from an Ashby careers page to CSV with a short Python script using the public Ashby job board API.", "datePublished": "2026-11-14", "dateModified": "2026-11-14", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/export-ashby-jobs-to-csv/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Export all open jobs from an Ashby careers page to CSV (Python)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/ats-jobs-feed). The script below works without it.</em></p>
+<p>Companies that hire through Ashby publish their open postings as JSON at <code>https://api.ashbyhq.com/posting-api/job-board/&lt;slug&gt;</code>, no login or key needed. The slug is the one in the jobs URL (<code>jobs.ashbyhq.com/&lt;slug&gt;</code>).</p>
+<h2>The script</h2>
+<pre>import csv, requests
+
+SLUG, KEYWORD = "ramp", "engineer"
+data = requests.get(f"https://api.ashbyhq.com/posting-api/job-board/{SLUG}", timeout=30).json()
+rows = [j for j in data["jobs"] if j.get("isListed", True) and KEYWORD in j["title"].lower()]
+
+with open("jobs.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["title", "location", "department", "workplace", "remote", "published", "url"])
+    for j in rows:
+        w.writerow([j["title"], j.get("location"), j.get("department"), j.get("workplaceType"),
+                    j.get("isRemote"), j.get("publishedAt"), j["jobUrl"]])</pre>
+<p>I ran this against the Ramp board: 169 open postings, 36 with "engineer" in the title; the first row was a hybrid New York role.</p>
+<h2>Caveats</h2>
+<ul>
+<li>Titles can have stray whitespace; <code>.strip()</code> them if you sort or deduplicate.</li>
+<li><code>publishedAt</code> is an ISO timestamp, handy for "posted in the last 7 days" filters.</li>
+<li>Each job also carries <code>descriptionPlain</code> if you want to search the full text.</li>
+</ul>
+<h2>Many companies at once</h2>
+<p>For a watchlist across Ashby, Greenhouse, Lever, Workable and more, with normalized fields and only new jobs per run, see <code>datakit/ats-jobs-feed</code>.</p>
+<p><a href="https://apify.com/datakit/ats-jobs-feed">Apify Store page</a></p>
+</body></html>
