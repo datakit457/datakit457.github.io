@@ -1,0 +1,578 @@
+fhrsid,business_name,business_type,address,postcode,council,region,first_listed,fsa_url
+2014525,Glyncoed Fish Bar,Takeaway/sandwich shop,"29-31 Heol Pen Y Cae, Ebbw Vale, Blaenau Gwent",NP23 5UD,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2014525
+2014524,Rosie's Restaurant & Takeaway,Restaurant/Cafe/Canteen,"89 Bethcar Street, Ebbw Vale, Blaenau Gwent",NP23 6HN,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2014524
+2014523,Chez She’s,Restaurant/Cafe/Canteen,"28 Church Street, Abertillery, Blaenau Gwent",NP13 1DB,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2014523
+2014243,House Rules Lounge,Pub/bar/nightclub,"16 High Street, Newport, South Wales",NP20 1FW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014243
+2014242,Splash Leisure Centre Cafe,Restaurant/Cafe/Canteen,"Splash, Usk Way, Newport, South Wales",NP20 2BP,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014242
+2014241,"Jaynes Baby Bank, Food Bank And Pantry",Retailers - other,"Principality Medical Ltd, Principality House, Western Valley Road, Rogerstone",NP10 9DS,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014241
+2014240,Three Elephants,Restaurant/Cafe/Canteen,"Foresters Oaks, Chepstow Road, Newport, South Wales",NP18 2AA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014240
+2014239,XueN Chinese Takeaway,Takeaway/sandwich shop,"Ground Floor, 438 Corporation Road, Newport, South Wales",NP19 0GA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014239
+2014237,Afiya Afro & Halal Food,Retailers - other,"42 Cardiff Road, Newport, South Wales",NP20 2ED,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2014237
+2013434,Ephesus Pizzeria,Takeaway/sandwich shop,"63 High Street, Gorseinon",SA4 4BP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2013434
+2013433,Pepino's Pizza,Takeaway/sandwich shop,"24 High Sreet, Gorseinon",SA4 4BX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2013433
+2013171,Brad Cod Bar,Takeaway/sandwich shop,"1 Glenview Terrace, Llanbradach, Caerphilly",CF83 3NS,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013171
+2013170,Bethany Baptist Church,Restaurant/Cafe/Canteen,"Tredegar Street, Risca",NP11 6BW,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013170
+2013168,Cylch Meithrin Cwm Derwen,Caring Premises,"Ysgol Gymraeg Cwm Derwen, Beech Grove, Oakdale, Blackwood",NP12 0JL,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013168
+2013166,Cefn Fforest Drama & Pantomime Group,Retailers - other,"Hebron, Penllwyn Lane, Pontllanfraith Blackwood",NP12 2BZ,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013166
+2013164,Senghenydd Community Centre,Other catering premises,"Gwern Avenue, Senghenydd",CF83 4HA,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013164
+2013163,The Rhymney House Hotel,Other catering premises,"Rhymney House Hotel, Rhymney Bridge, Rhymney",NP22 5QG,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013163
+2013162,The Sharing Shelf,Retailers - other,"Idris Davies School, Abertysswg Road, Rhymney, Tredegar",NP22 5XF,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2013162
+2013069,Mr Chippy,Restaurant/Cafe/Canteen,"4 General Rees Square, Cwmbran",NP44 1AH,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2013069
+2013068,Pizza Dough,Takeaway/sandwich shop,"Unit 31, John Baker Close, Llantarnam, Cwmbran",NP44 3AU,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2013068
+2013067,Delicious Delights,Restaurant/Cafe/Canteen,"19 The Mall, Cwmbran",NP44 1PX,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2013067
+2013065,Sweets & Scents,Retailers - other,"5 The Mall, Cwmbran",NP44 1PX,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2013065
+2012971,Zaks Preps,Restaurant/Cafe/Canteen,"Zak preps, Golf House Northop Country Park, Northop, Flintshire",CH7 6WA,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/2012971
+2012302,Dragonzone,Restaurant/Cafe/Canteen,"Thornwell Pavilion, Tenby Lane, Thornwell, Chepstow",NP16 5GH,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/2012302
+2012301,Thyme,Restaurant/Cafe/Canteen,"Westgate, Llanfoist, Abergavenny, Monmouthshire",NP7 9LH,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/2012301
+2012041,PRINCE OF WALES ABERAERON,Restaurant/Cafe/Canteen,"The Prince Of Wales Hotel 1 Queen Street, Aberaeron, Ceredigion",SA46 0BY,Ceredigion,Wales,baseline,https://ratings.food.gov.uk/business/2012041
+2011770,The Little Cake Shed,Retailers - other,"Loughor Rugby Football Club, Belgrave Road, Gorseinon",SA4 6RF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011770
+2011768,SHG Catering & Events Ltd,Restaurant/Cafe/Canteen,"St Helens Ground, Bryn Road, Brynmill",SA2 0AR,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011768
+2011767,Pock Stop,Restaurant/Cafe/Canteen,"160 Port Tennant Road, Port Tennant",SA1 8JQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011767
+2011766,Flame Kebab House,Takeaway/sandwich shop,"11-12 Wind Street, City Centre",SA1 1DP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011766
+2011765,The Greek Street,Takeaway/sandwich shop,"Albert Hall, 27 Cradock Street",SA1 3EP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011765
+2011764,Bore Da Café,Restaurant/Cafe/Canteen,"11 High Street, Gorseinon",SA4 4BX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011764
+2011763,Cosy Club Swansea,Restaurant/Cafe/Canteen,"Ground Floor Exchange Buildings, Adelaide Street, Maritime Quarter",SA1 1SH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011763
+2011761,Millefoglie Swansea,Restaurant/Cafe/Canteen,"15 Picton Arcade, City Centre",SA1 3BH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011761
+2011760,Subway,Takeaway/sandwich shop,"Unit K1 The Piazza, Parc Tawe, City Centre",SA1 2AL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011760
+2011759,Jerk Hut Swansea,Takeaway/sandwich shop,"8 Orchard Street, City Centre",SA1 5AG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011759
+2011758,Wild Ones Wales,Restaurant/Cafe/Canteen,"65 Southgate Road, Southgate",SA3 2DH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011758
+2011757,Swon,Retailers - other,"38 Singleton Street, City Centre",SA1 3QN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011757
+2011755,Rivals Nightclub Swansea,Pub/bar/nightclub,"5 Wind Street, City Centre",SA1 1DW,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2011755
+2010629,CARDIFF HALAL FOODS LTD,Retailers - other,"95 Tudor Street, Cardiff",CF11 6AA,Cardiff,Wales,baseline,https://ratings.food.gov.uk/business/2010629
+2010267,Cwrt yr Orsaf Extra Care,Caring Premises,"Union Street, Graig, Pontypridd",CF37 1SD,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010267
+2010266,Maesyffynon Extra Care,Caring Premises,"Club Street, Aberaman, Aberdare",CF44 6BQ,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010266
+2010265,Cwmaman Premier Convenience,Retailers - other,"24-27 Fforchaman Road, Cwmaman, Aberdare",CF44 6NG,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010265
+2010264,Cleverchefs,Restaurant/Cafe/Canteen,"G E Aircraft Engine Services Ltd, Caerphilly Road, Nantgarw, Taff's Well",CF15 7YJ,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010264
+2010263,Old Central Stores,Retailers - other,"Old Central Hotel, Clydach Road, Clydach, Tonypandy",CF40 2DG,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010263
+2010262,Truly Scrumptious,Restaurant/Cafe/Canteen,"8 Mill Street, Tonyrefail, Porth",CF39 8AA,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010262
+2010261,35 Squared,Pub/bar/nightclub,"35 Victoria Square, Aberdare",CF44 7LB,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010261
+2010258,Dave's Family Butchers,Retailers - other,"Unit 2, 3-6 Cardiff Street, Aberdare",CF44 7DP,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010258
+2010257,Plan Burrito Treforest,Restaurant/Cafe/Canteen,"18 Park Street, Treforest, Pontypridd",CF37 1SN,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2010257
+2009278,Dros Yr Enfys Flying Start,Caring Premises,"Shaftesbury Community Centre, Evans Street, Newport, South Wales",NP20 5LD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009278
+2009277,SW Desi Taste,Takeaway/sandwich shop,"Property Known As 105B, Chepstow Road, Newport, South Wales",NP19 8BY,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009277
+2009272,Golden Biltong @ Maesglas Sports And Social Club,Takeaway/sandwich shop,"Maesglas Workmens Club, Maesglas Avenue, Newport, South Wales",NP20 3BT,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009272
+2009268,Cleverchef Catering @ Eastman,Restaurant/Cafe/Canteen,"Solutia UK Ltd, Traston Road, Newport, South Wales",NP19 4XF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009268
+2009267,Kiwami Yatai,Restaurant/Cafe/Canteen,"Newport Provisions Market, High Street, Newport, South Wales",NP20 1DD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009267
+2009266,Star Chippy,Takeaway/sandwich shop,"185 Cardiff Road, Newport, South Wales",NP20 3BP,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009266
+2009263,Greggs Plc,Manufacturers/packers,"414 - 416 Chepstow Road, Newport, South Wales",NP19 8JH,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009263
+2009261,The Fedline Project Newport And Cwmbran CiC,School/college/university,"Unit 6, Duffryn Shopping Centre, Tredegar House Drive, Newport",NP10 8TE,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009261
+2009260,Golden BBQ Restaurant,Takeaway/sandwich shop,"Cambrian Inn, 112 Commercial Road, Newport, South Wales",NP20 2GW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2009260
+2008681,Lugg & Land,Retailers - other,"14 High Street, Presteigne, Powys",LD8 2BA,Powys,Wales,baseline,https://ratings.food.gov.uk/business/2008681
+2008647,The Grazing Gals,Restaurant/Cafe/Canteen,"The Squares, Office 1 2 Girls Trading Estate Mostyn, Flintshire",CH8 9DZ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/2008647
+2008645,Sunlit Drop,Distributors/Transporters,"Sunlit Drops, Rear of Old Tavern, Greenfield Road Greenfield, Flintshire",CH8 7GR,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/2008645
+2008641,The Buckley Pantry,Retailers - other,"18 Brunswick Road, Buckley, Flintshire",CH7 2ED,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/2008641
+2007649,Newbridge Hotel,Pub/bar/nightclub,"High Street, Newbridge, Newport",NP11 4FH,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007649
+2007648,Cefn Glas Extra Care Shelter Home,Caring Premises,"Cefn Glas, Maes-Y-Coed, Highfields, Blackwood",NP12 1HD,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007648
+2007644,The Bake House,Manufacturers/packers,"Unit 3, Woodland Place, Pengam, Blackwood",NP12 3QX,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007644
+2007643,Ray's Dairies,Distributors/Transporters,"7 Colenso Terrace, Rhymney, Tredegar",NP22 5NQ,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007643
+2007642,Prince Of Wales Inn,Pub/bar/nightclub,"Dixon Place, Risca, Gwent",NP11 6PY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007642
+2007641,Maria's fruit and Veg,Retailers - other,"35 High Street, Bargoed",CF81 8RB,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007641
+2007638,Yummies,Takeaway/sandwich shop,"Yummies (Trethomas), 6 Newport Road, Trethomas",CF83 8BY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007638
+2007637,Valley Daffodils,Restaurant/Cafe/Canteen,"93 Penallta Road, Ystrad Mynach",CF827GN,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007637
+2007636,Coopers Arms,Pub/bar/nightclub,"Caerphilly Road, Ystrad Mynach",CF82 7EP,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007636
+2007635,Aspendos Risca,Takeaway/sandwich shop,"Aspendos, 31 Commercial Street, Risca",NP11 6AW,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007635
+2007634,Lansbury Chemist,Retailers - other,"Shop Unit,  42 Maxton Court, Lansbury Park, Caerphilly",CF83 1QN,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007634
+2007632,Blackwood Vineyard,Other catering premises,"T A Centre, Bryn Road, Cefn Fforest, Blackwood",NP12 3LY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/2007632
+2007271,Bua Thai Kitchen Ltd,Takeaway/sandwich shop,"33 Walter Road, City Centre",SA1 5NW,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2007271
+2007269,STACKERZ MANSELTON,Takeaway/sandwich shop,"Unit 1A, APPROACH ROAD, MANSELTON",SA5 8NL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2007269
+2006202,Winner Chinese Takeaway,Takeaway/sandwich shop,"65 Henwalia, Caernarfon, Gwynedd",LL55 2LB,Gwynedd,Wales,baseline,https://ratings.food.gov.uk/business/2006202
+2006149,Pontypool Town AFC,Pub/bar/nightclub,"Clubhouse, off Albion Road, Pontypool",NP4 6GE,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2006149
+2006145,Grill & Spice,Takeaway/sandwich shop,"128 Osborne Road, Pontypool",NP4 6LT,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/2006145
+2005699,Tide N Toast,Restaurant/Cafe/Canteen,"Unit 12, Crofty Industrial Estate, Crofty",SA4 3RS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005699
+2005696,Chick'n Rascal,Restaurant/Cafe/Canteen,Founders and Co 24 Wind Street,SA1 1DY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005696
+2005695,The Dog House,Takeaway/sandwich shop,"Albert Hall, 27 Cradock Street, City Centre",SA1 3EP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005695
+2005694,Unity in Diversity CIO,Retailers - other,"York Place Baptist Chapel, York Street, City Centre",SA1 3LZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005694
+2005693,"""STREET"" by chef Raj Choudhury",Restaurant/Cafe/Canteen,"37 Castle Street, City Centre",SA1 1HZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005693
+2005691,Pastel de Nata in Abertawe,Restaurant/Cafe/Canteen,"215a Oxford Street, City Centre",SA1 3BG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005691
+2005690,Farmers Arms,Pub/bar/nightclub,"152 St Teilo Street, Pontarddulais",SA4 8RA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005690
+2005689,Congolese Development Project - Charity Non Profit Organisation,Retailers - other,"12-24 Belle Vue Way, City Centre",SA1 5BY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005689
+2005688,Tesco (3375) - Manselton Express,Retailers - other,"Unit 1, 43-47 Eaton Road, Brynhyfryd",SA5 9JU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005688
+2005687,International Food,Retailers - supermarkets/hypermarkets,"38-39 St Helens Road, Sandfields",SA1 4AY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/2005687
+2005615,YO! To Go,Takeaway/sandwich shop,"Tesco Supermarket, Ebbw Vale, Blaenau Gwent",NP23 6TS,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2005615
+2005614,Beaufort Colts FC,Retailers - other,"Hilltop Stadium, Brynteg Terrace, Willowtown, Ebbw Vale",NP23 6ND,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2005614
+2005611,RTB Football Club,Takeaway/sandwich shop,"Hilltop Stadium, Brynteg Terrace, Willowtown, Ebbw Vale",NP23 6ND,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/2005611
+2001740,WEMWW,Distributors/Transporters,"22 Cementite Grove, Newport, South Wales",NP19 4EL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2001740
+2001738,The Roti-Shack,Takeaway/sandwich shop,"34 Cardiff Road, Newport, South Wales",NP20 2ED,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2001738
+2001737,Friendly Care Network,Retailers - other,"5 Beatty Road, Newport, South Wales",NP19 9GG,Newport,Wales,baseline,https://ratings.food.gov.uk/business/2001737
+2001505,Archdeacon Griffiths Breakfast Club,School/college/university,"Archdeacon Griffiths Primary School, Llyswen, Brecon, Powys",LD3 0YB,Powys,Wales,baseline,https://ratings.food.gov.uk/business/2001505
+2000601,The Rickards Arms,Pub/bar/nightclub,"61 Park Street, Treforest, Pontypridd",CF37 1SN,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2000601
+2000599,Kebabibi,Takeaway/sandwich shop,"18-19 Llewellyn Street, Pentre",CF41 7BX,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2000599
+2000597,Happy Little Dragons Llanharan,Caring Premises,"Llanharan Primary School, Llwynbrain Terrace, Llanharan, Pontyclun",CF72 9PW,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2000597
+2000596,Greggs,Retailers - other,"33 Dunraven Street, Tonypandy",CF40 1AL,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2000596
+2000595,Caffi Chwarae,Restaurant/Cafe/Canteen,"1 Ynysmeurig Road, Abercynon, Mountain Ash",CF45 4SU,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/2000595
+1999799,The Padel Club Chester,Restaurant/Cafe/Canteen,"Minerva House, Minerva Court Chester West Employment Pa, Flintshire",CH1 4QT,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999799
+1999798,Bullyard,Restaurant/Cafe/Canteen,"30 High Street, Mold, Flintshire",CH7 1BH,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999798
+1999797,Pound Bakery,Retailers - other,"6 High Street, Mold, Flintshire",CH7 1AZ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999797
+1999795,Royal Shawarma,Takeaway/sandwich shop,"26 Station Road, Queensferry, Flintshire",CH5 1SX,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999795
+1999794,Vendology,Retailers - other,"Coffee Kig, Unite 13b Fourth Avenue Deeside Industri, Flintshire",CH5 2NR,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999794
+1999792,Club Spice,Restaurant/Cafe/Canteen,"80 High Street, Mold, Flintshire",CH7 1BH,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999792
+1999791,Mumbai Lounge,Restaurant/Cafe/Canteen,"17 Mold Road, Buckley, Flintshire",CH7 2JA,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999791
+1999788,Panku Streetfood,Takeaway/sandwich shop,"Asda Stores Ltd, Aston Road Queensferry, Flintshire",CH5 1TP,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1999788
+1998610,Hay-on-Wye Comics,Retailers - other,"23 Castle Street, Hay-On-Wye, Hereford",HR3 5DF,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1998610
+1998604,Dave's Dough,Takeaway/sandwich shop,"37 Dolforgan View, Kerry, Newtown, Powys",SY16 4DZ,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1998604
+1998586,Dunvant Tandoori,Takeaway/sandwich shop,"6 Dunvant Square, Dunvant",SA2 7TA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1998586
+1998585,Swansea Foodbank Gorseinon,Retailers - other,"St Catherines Church, Alexandra Road, Gorseinon",SA4 4NU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1998585
+1998527,Ashbridge Inn,Restaurant/Cafe/Canteen,"Avondale Road, Pontrhydyrun, Cwmbran",NP44 1DE,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1998527
+1998526,Choice Takeaway,Takeaway/sandwich shop,"17 Osborne Road, Pontypool",NP4 6LU,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1998526
+1998525,Crave N Flave,Retailers - other,"Caerleon House, Mamhilad Park Estate, Mamhilad, Pontypool",NP4 0XF,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1998525
+1998524,Little Stars Mamhilad,Caring Premises,"Monmouth House, Mamhilad Park Estate, Mamhilad, Pontypool",NP4 0HZ,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1998524
+1998364,Cymru Pizza,Takeaway/sandwich shop,"Francis Street, Thomastown, Tonyrefail",CF39 8DS,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1998364
+1998363,Thrive Health Kitchen & Coffee House,Restaurant/Cafe/Canteen,"10 Market Street, Pontypridd",CF37 2ST,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1998363
+1998359,Park Vape,Retailers - other,"12 Bridge Street, Pontypridd",CF37 4PE,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1998359
+1998358,Aftermath Coffee Company,Restaurant/Cafe/Canteen,"91 Taff Street, Pontypridd",CF37 4SN,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1998358
+1994088,Tamarind Express,Takeaway/sandwich shop,"3 Fallowfield Drive, Newport, South Wales",NP19 4TD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1994088
+1994081,Eat Wize Cafe & Restaurant,Restaurant/Cafe/Canteen,"137 Chepstow Road, Newport, South Wales",NP19 8GE,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1994081
+1994080,Tas Firin,Restaurant/Cafe/Canteen,"63 Commercial Road, Newport, South Wales",NP20 2PF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1994080
+1994079,Hatti,Restaurant/Cafe/Canteen,"77 - 78 Lower Dock Street, Newport, South Wales",NP20 1EH,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1994079
+1994078,The Shop On The Hill (Big Bocs Bwyd),School/college/university,"St Woolos Primary School, Stow Hill, Newport, South Wales",NP20 4DW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1994078
+1993978,Woollys Snack Shack,Distributors/Transporters,"Pontardawe Car Wash, Avenue Garage, Pontardawe, Swansea",SA8 4AB,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993978
+1993977,Lamb & Flag,Pub/bar/nightclub,"1 Wellfield Place, Glynneath, Neath",SA11 5ER,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993977
+1993976,Norms Bakes,Other catering premises,"4 Chopin Road, Sandfields, Port Talbot",SA12 7ST,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993976
+1993975,EnVogue Catering and Canapes,Other catering premises,"11 Mackworth Drive, Cimla, Neath",SA11 2BR,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993975
+1993974,Ivy Bush Hotel,Pub/bar/nightclub,"103 High Street, Pontardawe, Neath",SA8 4JN,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993974
+1993973,The Bucking Burger Ltd,Retailers - other,"43 High Street, Glynneath, Neath",SA11 5BT,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993973
+1993972,BITE ME fully loaded,Retailers - other,"23 Heol Godfrey, Lower Brynamman, Ammanford",SA18 1TB,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993972
+1993971,The Coffee Ground,Restaurant/Cafe/Canteen,"77 Herbert Street, Pontardawe, Swansea",SA8 4ED,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993971
+1993970,Red Hill Coffee,Manufacturers/packers,"Unit 11 Glynneath Village Workshops, Glynneath",SA11 5RG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993970
+1993969,Pentwyn Petting Farm Hut,Restaurant/Cafe/Canteen,"Pentwyn Farm, Crymlyn Road, Skewen, Neath",SA10 6NL,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993969
+1993968,Pizza Napoli,Takeaway/sandwich shop,"13 Windsor Road, Neath",SA11 1NA,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993968
+1993967,Bake My Day,Other catering premises,"66 Old Road, Baglan, Port Talbot",SA12 8TU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993967
+1993965,Oh Crumble,Takeaway/sandwich shop,"115 Pen Y Cae Road, Port Talbot",SA13 2EG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993965
+1993964,Guided Spirits,Other catering premises,"86 Neath Road, Rhos, Pontardawe",SA8 3HB,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993964
+1993963,Coedffranc Childcare,Caring Premises,"Coedffranc Childcare Coedffranc Primary School, Stanley Road, Skewen, Neath",SA10 6LP,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1993963
+1993574,Burgerfreakz,Restaurant/Cafe/Canteen,"89 Broughton Avenue, Blaenymaes",SA5 5LN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993574
+1993573,Meena's Convenience Store,Retailers - other,"55 The Kingsway, City Centre",SA1 5HQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993573
+1993572,Ji the chicken shop,Takeaway/sandwich shop,"67 St Helens Road, Sandfields",SA1 4BE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993572
+1993571,Aces,Restaurant/Cafe/Canteen,"35 High Street, City Centre",SA1 1LG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993571
+1993568,Asaga Express Ltd,Takeaway/sandwich shop,"207 Oxford Street, City Centre",SA1 3HT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993568
+1993567,Kings Corner,Retailers - other,"2-3 King Edward's Road, Brynmill",SA1 4LH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1993567
+1993375,Wing Fin Ltd,Takeaway/sandwich shop,"Shop Unit, 4 Shopping Parade  Troed-Y-Bryn, Penyrheol, Caerphilly",CF83 2PX,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1993375
+1993374,Caerphilly Market,Retailers - other,"Unit, 65 Cardiff Road, Caerphilly",CF83 1FP,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1993374
+1993116,The Gwaith Cafe,Restaurant/Cafe/Canteen,"Pontygwaith Community Centre, Llewellyn Street, Pontygwaith, Ferndale",CF43 3LD,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1993116
+1993115,Tonyrefail Pizza & Kebab,Takeaway/sandwich shop,"1 Waunrhydd Road, Tonyrefail, Porth",CF39 8EN,Rhondda Cynon Taf,Wales,baseline,https://ratings.food.gov.uk/business/1993115
+1991235,Kaleidoscope Community Fridge,Retailers - other,"2 Severn Street, Welshpool, Powys",SY21 7AB,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1991235
+1991232,Eyre Farms,Restaurant/Cafe/Canteen,"Wern Holding, Wern, Pool Quay, Welshpool",SY21 9LH,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1991232
+1991097,Hiraeth,Restaurant/Cafe/Canteen,"Plumbwise, Siding Terrace, Skewen, Neath",SA10 6RF,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991097
+1991096,Arthur Chapman,Restaurant/Cafe/Canteen,"40 Windsor Road, Neath",SA11 1LU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991096
+1991095,Bake n Take,Retailers - other,"5 Neath General Market, Green Street, Neath",SA11 1DP,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991095
+1991093,Busk and Brew,Restaurant/Cafe/Canteen,"14 Angel Street, Neath",SA11 1RS,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991093
+1991092,Cylch Meithrin Blaendulais,Caring Premises,"Blaendulais Childcare Unit, High Street, Seven Sisters, Neath",SA10 9DN,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991092
+1991091,The Crispy Shell,Takeaway/sandwich shop,"Resolven Rugby Club, Perth Y Dion, Resolven, Neath",SA11 4NJ,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1991091
+1991071,Swansea Bay Sports Park,Restaurant/Cafe/Canteen,"Sketty Lane, Sketty",SA2 8QG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1991071
+1991070,Beaufort Arms,Pub/bar/nightclub,"18 Pennard Road, Kittle",SA3 3JG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1991070
+1991064,No Sign Wine Bar,Pub/bar/nightclub,"56 Wind Street, City Centre",SA1 1EG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1991064
+1991063,JNJ STORE,Retailers - other,"110 Pen Y Graig Road, Townhill",SA1 6LA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1991063
+1991061,The Coal House,Restaurant/Cafe/Canteen,1 High Street,SA4 4BX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1991061
+1989758,Wings Club,Restaurant/Cafe/Canteen,"Broughton Wings Sports Club, Broughton Hall Road Broughton, Flintshire",CH4 0NQ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1989758
+1989756,Broughton War Memorial Institute,Retailers - other,"Main Road, Broughton, Flintshire",CH4 0NN,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1989756
+1989754,Cosy Coffee House,Restaurant/Cafe/Canteen,"12 New Street, Mold, Flintshire",CH7 1NZ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1989754
+1989753,Caprinos Pizza,Takeaway/sandwich shop,"73 Chester Road West, Shotton, Flintshire",CH5 1BZ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1989753
+1989206,On The Go Vending,Retailers - other,"64 Riverbank Avenue, Newport, South Wales",NP19 7EF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989206
+1989205,Chilli Express,Takeaway/sandwich shop,"12 Risca Road, Newport, South Wales",NP20 4JW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989205
+1989204,TK Fresh Food Market,Distributors/Transporters,"13 Mill Street, Newport, South Wales",NP20 5GZ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989204
+1989203,The Hwb,Restaurant/Cafe/Canteen,"Duffryn Community Centre, Duffryn Shopping Centre, Tredegar House Drive, Newport",NP10 8TE,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989203
+1989200,Jacketinn,Restaurant/Cafe/Canteen,"408 Corporation Road, Newport, South Wales",NP19 0GA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989200
+1989199,Chicken Shack,Takeaway/sandwich shop,"230 Corporation Road, Newport, South Wales",NP19 0DZ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1989199
+1988643,Camau Bach Flying Start,Restaurant/Cafe/Canteen,"Llanfaes Primary School, Bailihelig Road, Brecon, Powys",LD3 8EB,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1988643
+1987461,Poundland,Retailers - other,"24 Welsh Street, Chepstow, Monmouthshire",NP16 5LL,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987461
+1987458,David Oxford Mushrooms,Retailers - other,"42 Rockfield Grove, Undy, Caldicot",NP26 3FB,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987458
+1987455,Am Jaming,Other catering premises,"44 Rockfield Way, Undy, Caldicot",NP26 3FD,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987455
+1987454,Cil-y-Coed Honey/Sting and Tonic,Manufacturers/packers,"1 Wentwood View, Caldicot, Monmouthshire",NP26 4QG,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987454
+1987452,Willow Tree Nursery Magor,Caring Premises,"Magor Court, Newport Road, Magor, Caldicot",NP26 3BZ,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987452
+1987451,Bridges Social Circles,Other catering premises,"Monmouth Methodist Church, 16a St James' Street, Monmouth, Monmouthshire",NP25 3DL,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987451
+1987449,The Bank,Restaurant/Cafe/Canteen,"57 Bridge Street, Usk, Monmouthshire",NP15 1BQ,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1987449
+1987100,Tredegar Balti House,Takeaway/sandwich shop,"14-14a Castle Street, Tredegar, Blaenau Gwent",NP22 3DF,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1987100
+1987099,Mr Pizza & Kebab,Takeaway/sandwich shop,"38 Castle Street, Tredegar, Blaenau Gwent",NP22 3DQ,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1987099
+1987096,The Old Rectory,Caring Premises,"Rectory Road, Swffryd, Abertillery",NP11 5DU,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1987096
+1987095,Cellar Drinks Company Ltd,Distributors/Transporters,"Unit 6, Tafarnaubach Industrial Estate, Tafarnaubach, Tredegar",NP22 3AA,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1987095
+1987094,Prosper Care & Support Limited,Caring Premises,"38 Stockton Way, Tredegar, Blaenau Gwent",NP22 3EN,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1987094
+1986938,Crumbii,Manufacturers/packers,"Fireside Coffee Lounge, 24 Hanbury Road, Bargod",CF81 8QT,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986938
+1986936,Tiny T’s Ltd,Caring Premises,"Abercarn Primary School, Abercarn, Newport",NP11 5LH,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986936
+1986933,Refuel Ltd,Other catering premises,"Unit 11, Block G, Penmaen Industrial Estate, Penmaen",NP12 2DQ,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986933
+1986932,Grapevine Catering,Restaurant/Cafe/Canteen,"Masonic Hall, Princes Avenue, Caerphilly",CF83 1HR,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986932
+1986931,Kitchenalandalus,Other catering premises,"35 St Annes Gardens, Abertridwr, Caerphilly",CF83 4BS,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986931
+1986929,Smash and Waffle Land,Takeaway/sandwich shop,"Shop Unit, 8 Pentrebane Street, Caerphilly",CF83 1FR,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1986929
+1985329,Morrisons Daily,Retailers - other,"Morrisons Daily Cross Service Station, 1 Swansea Road, Penllergaer",SA4 9AQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985329
+1985328,Sok Retail Ltd,Retailers - other,"Morriston Service Station, Samlet Road, Swansea Enterprise Park",SA7 9AD,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985328
+1985327,Eight Buns,Restaurant/Cafe/Canteen,"218 High Street, City Centre",SA1 1PE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985327
+1985320,South Mumbles Ltd,Restaurant/Cafe/Canteen,"50 Newton Road, Mumbles",SA3 4BQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985320
+1985317,Molly Malones,Pub/bar/nightclub,"2 Wind Street, City Centre",SA1 1DE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985317
+1985312,Liberty Coffee Morning,Restaurant/Cafe/Canteen,"Siloh Church, Pentre Treharne Road",SA1 2PN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985312
+1985310,San&Jas store,Retailers - other,"71 Manor Road, Manselton",SA5 9PD,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985310
+1985308,Ralados,Restaurant/Cafe/Canteen,"866 Carmarthen Road, Fforestfach",SA5 8HR,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985308
+1985307,Oak & Fire,Takeaway/sandwich shop,"198 Neath Road, Landore",SA1 2JT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985307
+1985306,Happy Hwb,Retailers - other,"Graigfelen Hall, Hillrise Park, Clydach",SA6 5DX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985306
+1985305,Mals,Takeaway/sandwich shop,"65 Newton Road, Mumbles",SA3 4BL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985305
+1985303,The Foundary,Restaurant/Cafe/Canteen,"5 High Street, City Centre",SA1 1LE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985303
+1985301,Zuno Play,Restaurant/Cafe/Canteen,"Unit 15 Parc Fforestfach, Cadle",SA5 4BB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985301
+1985299,Ty Filasteen,Restaurant/Cafe/Canteen,"622 Mumbles Road, Mumbles",SA3 4EA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1985299
+1985113,Mel   Milis,Retailers - other,"Mel & Milis, Unit 13 Abakhan Village, Coast Road Llanerch-Y-Mor, Flintshire",CH8 9DX,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1985113
+1984810,The Stuffed Muffin,Restaurant/Cafe/Canteen,"Unit 23, Kingsway Centre, John Frost Square, Newport",NP20 1EB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1984810
+1984802,Uvin's Convenience Store,Retailers - other,"Alma Inn, 6 - 7 Commercial Road, Newport, South Wales",NP20 2PA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1984802
+1984737,ANR Group Ltd,Manufacturers/packers,"Unit 1, Oakwood Close, Pen-Y-Fan Industrial Estate, Pen-Y-Fan",NP11 3HY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1984737
+1984736,Honey Bug Bakehouse,Other catering premises,"11 Penywerlod Road, Markham, Blackwood",NP12 0PY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1984736
+1982906,Secrets Bakehouse,Other catering premises,"97 Cefn Fforest Avenue, Cefn Fforest, Blackwood",NP12 3JX,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1982906
+1982904,The Fry Lab,Takeaway/sandwich shop,"Top Stores, 88a Heol Aneurin, Penyrheol, Caerphilly",CF83 2PE,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1982904
+1981598,Westway Warehouse,Takeaway/sandwich shop,"Unit 1 Rectors Lane Industrial Estate, Rectors Lane Sandycroft, Flintshire",CH5 2DH,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981598
+1981596,PPD Community Hwb CIC,Restaurant/Cafe/Canteen,"PPD community hwb, Hawarden Road Penyffordd, Flintshire",CH4 0JE,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981596
+1981595,Nisa Local,Retailers - other,"Queen Street, Leeswood, Flintshire",CH7 4RQ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981595
+1981593,Deadwood Smokehouse,Restaurant/Cafe/Canteen,"Clifton House, 18 Wrexham Street, Flintshire",CH7 1ES,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981593
+1981591,The Ritz Cafe Ltd,Restaurant/Cafe/Canteen,"7 Chester Street, Flint, Flintshire",CH6 5NR,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981591
+1981590,Our Growing Space CIC,Restaurant/Cafe/Canteen,"Victoria Road, Bagillt, Flintshire",CH6 6JN,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981590
+1981586,Savs Bakes,Other catering premises,"101 Normanby Drive, Connahs Quay, Flintshire",CH5 4LH,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981586
+1981585,M&M Convenience,Retailers - other,"239 High Street, Connahs Quay, Flintshire",CH5 4DJ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981585
+1981582,Starbucks,Restaurant/Cafe/Canteen,"Flintshire Retail Park, A55 Chester, Flintshire",CH8 8RF,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1981582
+1980448,Rassau Fish Bar,Takeaway/sandwich shop,"4 School Road, Rassau, Ebbw Vale",NP23 5PP,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980448
+1980447,The Old Rectory,Caring Premises,"The Old Rectory Bungalow, Rectory Road, Swffryd, Abertillery",NP11 5DU,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980447
+1980443,The Belle Vue Ltd,Pub/bar/nightclub,"Queen Victoria Street, Tredegar, Blaenau Gwent",NP22 3PX,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980443
+1980440,Chip Off The Old Block,Takeaway/sandwich shop,"1 Shopping Centre, Honeyfield Road, Rassau, Ebbw Vale",NP23 5TA,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980440
+1980434,Lachedibles and African store,Retailers - other,"129 Gainsborough Road, Cefn Golau, Tredegar",NP22 3TH,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980434
+1980428,Premier Stores,Retailers - other,"2 Church Street, Ebbw Vale, Blaenau Gwent",NP23 6BE,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980428
+1980424,Ty Garn,Caring Premises,"Llangynidr Road, Beaufort, Ebbw Vale",NP23 5EY,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1980424
+1979836,Mylos Coffee,Restaurant/Cafe/Canteen,"16 Station Road, Ystradgynlais, Swansea",SA9 1NP,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1979836
+1979199,Old Road Farm,Farmers/growers,"Penycaemawr, Usk",NP15 1LX,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979199
+1979195,Blue Light Catering,Other catering premises,"Abergavenny Town And Market Hall, Cross Street, Abergavenny, Monmouthshire",NP7 5EH,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979195
+1979191,The Guest House,Hotel/bed & breakfast/guest house,"2 Oxford Street, Abergavenny, Monmouthshire",NP7 5RP,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979191
+1979189,Miss Darling's Jamaican Kitchen,Other catering premises,"New House, Weyloed Lane, Mynnyddbach, Chepstow",NP16 6RW,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979189
+1979186,Little Play Emporium,Restaurant/Cafe/Canteen,"16b Moor Street, Chepstow, Monmouthshire",NP16 5DB,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979186
+1979185,The Pantry,Restaurant/Cafe/Canteen,"11 St Marys Arcade, Chepstow, Monmouthshire",NP16 5EU,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979185
+1979182,New Inn AFC,Pub/bar/nightclub,"Goytre AFC, Plough Road, Goytre",NP4 0AL,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979182
+1979179,The Carpenters Arms,Pub/bar/nightclub,"Church Road, Llanishen, Chepstow",NP16 6QH,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1979179
+1979076,Eazability,Retailers - other,"Unit 11, Kingsway Centre, John Frost Square, Newport",NP20 1EB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1979076
+1979069,Sunnybank Farm Shop,Retailers - other,"Sunnybank Farm, Caerphilly Road, Newport, South Wales",NP10 8RQ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1979069
+1978696,Swansea Sea Cadets,Restaurant/Cafe/Canteen,"Ajax, Pilot House Wharf",SA1 1UN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978696
+1978695,The Grillhouse,Restaurant/Cafe/Canteen,"The Grill House, Cwm Clyd, Waunarlwydd",SA5 4TR,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978695
+1978694,East Side Cafe,Restaurant/Cafe/Canteen,"17 Jersey Road, Bonymaen",SA1 7DG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978694
+1978693,McDonald's,Restaurant/Cafe/Canteen,"Fabian Way, Port Tennant",SA1 8LD,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978693
+1978691,Simply Dosa,Takeaway/sandwich shop,"17 Delhi Street, St Thomas",SA1 8BT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978691
+1978690,McDonald's,Restaurant/Cafe/Canteen,"Unit 1A & 1B, Morfa Shopping Park",SA1 7DF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978690
+1978688,The Beignet Kitchen,Other catering premises,"Unit 60 Swansea Market, Oxford Street, City Centre",SA1 3PQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978688
+1978686,The New Cod on the Block,Takeaway/sandwich shop,"Dicksys Fish Bar, Rhodfa Fadog, Cwmrhydyceirw",SA6 6LQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978686
+1978680,Port Tennant Tandoori,Takeaway/sandwich shop,"72 Port Tennant Road, Port Tennant",SA1 8JF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978680
+1978676,Fuel House by Station 86,Restaurant/Cafe/Canteen,"Warehouse Gym, Cwmdu Industrial Estate, Gendros",SA5 8JF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978676
+1978669,Drinks Stop,Retailers - other,"126 Rhyddings Terrace, Brynmill",SA2 0DR,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978669
+1978668,Kebabwalla,Takeaway/sandwich shop,"93 Sterry Road, Gowerton",SA4 3BN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1978668
+1978440,Mehraj express,Takeaway/sandwich shop,"Shop Unit, 22 Main Street, Crumlin, Newport",NP11 4PT,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1978440
+1978438,Thermo Fisher Scientific,Restaurant/Cafe/Canteen,"Unit 6 Parkway Building, Parkway, Pen-Y-Fan Industrial Estate, Pen-Y-Fan",NP11 3EF,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1978438
+1978435,Rhymney General Store,Retailers - other,"1 Jerusalem Street, Rhymni, Tredegar",NP22 5JB,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1978435
+1978286,Oriental Garden,Takeaway/sandwich shop,"41 Herbert Road, Pontardawe, Swansea",SA8 4EB,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978286
+1978285,Slice N Spice,Takeaway/sandwich shop,"44 Commercial Road, Taibach, Port Talbot",SA13 1LG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978285
+1978283,Starbucks,Restaurant/Cafe/Canteen,"Unit 2 Burrows Yard, Afan Way, Aberafan",SA12 6LL,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978283
+1978281,One More Bite,Retailers - other,"12 Morrison Crescent, Sandfields, Port Talbot",SA12 6TN,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978281
+1978278,Hannah’s Dream Cakes,Retailers - other,"98 Wern Road, Skewen, Neath",SA10 6DP,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978278
+1978277,Makeda’s Bakery,Retailers - other,"6 Heol Esgyn, Longford, Neath",SA10 7LL,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978277
+1978276,Cegin Cyw,Retailers - other,"11 Main Road, Aberdulais, Neath",SA10 8HG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978276
+1978275,La Dawn,Retailers - other,"5A Zoar Road, Ystalyfera, Swansea",SA9 2BP,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978275
+1978274,Dubbawala,Takeaway/sandwich shop,"1A Julian Terrace, Aberavon, Port Talbot",SA12 6UE,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978274
+1978272,Old Skool Community Cafe,Restaurant/Cafe/Canteen,"48 Commercial Road, Taibach, Port Talbot",SA13 1LG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978272
+1978271,Margots by Montys,Restaurant/Cafe/Canteen,"20 Orchard Street, Neath",SA11 1DU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978271
+1978268,Paned,Restaurant/Cafe/Canteen,"40 Heol Jiwbili, Cwmavon, Port Talbot",SA12 9NR,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978268
+1978266,No 6 at Bronleigh House Ltd,Restaurant/Cafe/Canteen,"6 Cadoxton Road, Neath",SA10 7AE,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978266
+1978265,Gymittee Café,Restaurant/Cafe/Canteen,"Unit 20, Milland Road Industrial Estate, Neath",SA11 1NJ,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978265
+1978259,The 9 Darter,Restaurant/Cafe/Canteen,"Unit 5, Port Talbot Workshops, Addison Road, Sandfields",SA12 6HZ,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978259
+1978255,GiGi's Riverside Pizzeria,Restaurant/Cafe/Canteen,"54-58 Gurnos Road, Ystalyfera, Swansea",SA9 2HY,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978255
+1978253,Safe Steps Care,Caring Premises,"130A Dynevor Road, Skewen, Neath",SA10 6TH,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978253
+1978247,Valleys to Veld,Manufacturers/packers,"25 Fforest Hill, Aberdulais, Neath",SA10 8HD,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978247
+1978246,Booze Box,Manufacturers/packers,"103 High Street, Pomtardawe, Swansea",SA8 4JN,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978246
+1978241,The Cake Booth,Takeaway/sandwich shop,"6 Ford Road, Velindre, Port Talbot",SA13 1AJ,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978241
+1978239,Mandy-Bowen (Childminder),Caring Premises,"16 Maplewood Close, Bryncoch, Neath",SA10  7UN,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978239
+1978230,Aldi Stores Limited,Retailers - supermarkets/hypermarkets,"Unit 1 Burrows Yard, Afan Way, Aberafan",SA12 6LL,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978230
+1978229,Nannies Goat Milk Soaps Cyf,Restaurant/Cafe/Canteen,"Blaenhonddan Uchaf Farm, Gilfach Road, Bryncoch, Neath",SA10 8AD,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1978229
+1976266,Newport Chicken & Grill,Takeaway/sandwich shop,"1 Speke Street, Newport, South Wales",NP19 8EX,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1976266
+1976265,Baileys Pick N Mix,Retailers - other,"Newport Rugby Football Ground, Newport Athletic Club, Rodney Road, Newport",NP19 0UU,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1976265
+1976262,Result Plan,Restaurant/Cafe/Canteen,"171 Corporation Road, Newport, South Wales",NP19 0BJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1976262
+1976243,Secrets Bakehouse,Other catering premises,"Shop Unit, 18 High Street, Fleur-de-lis",NP12 3UB,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1976243
+1976242,B2V Community Hall,Restaurant/Cafe/Canteen,"The Bedwas And Trethomas Community Hall, Newport Road, Bedwas, Caerphilly",CF83 8BJ,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1976242
+1975300,HWB Coffee Bar,Restaurant/Cafe/Canteen,"Woodland Road Sports And Social Club, Woodland Road, Croesyceiliog, Cwmbran",NP44 2DZ,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1975300
+1975021,The Lodge Kitchen,Retailers - other,"The New Lodge Gorseinon Independent Social Club, Alexandra Road, Gorseinon",SA4 4PE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1975021
+1975019,Flynn's coffee,Restaurant/Cafe/Canteen,"The SUPHut, Francis Street",SA1 4NH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1975019
+1975018,Bowl & Beyond,Restaurant/Cafe/Canteen,"132 Woodfield Street, Morriston",SA6 8AL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1975018
+1975016,The Swan Inn Morriston,Pub/bar/nightclub,"564 Neath Road, Morriston",SA6 8HE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1975016
+1974650,The Swan,Pub/bar/nightclub,"41 Main Road, Higher Kinnerton, Flintshire",CH4 9AJ,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974650
+1974648,The Old Blacksmiths Tavern,Restaurant/Cafe/Canteen,"Rear of Old Tavern, Llanerch-y-Mor, Flintshire",CH8 9DX,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974648
+1974647,The Waite Collective,Restaurant/Cafe/Canteen,"Village Hall, Bennetts Lane Higher Kinnerton, Flintshire",CH4 9AR,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974647
+1974646,Kebab Station,Takeaway/sandwich shop,"2 Station Road, Queensferry, Flintshire",CH5 1SX,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974646
+1974645,Smash and Spice,Takeaway/sandwich shop,"3 Chester Road West, Shotton, Flintshire",CH5 1BX,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974645
+1974641,Top Steak The Breakfast House,Restaurant/Cafe/Canteen,"56 High Street, Mold, Flintshire",CH7 1BH,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1974641
+1973976,The Puddlers Arms,Pub/bar/nightclub,"Puddlers Arms, Plantation Terrace, Rhymney, Tredegar",NP22 5PX,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1973976
+1972111,Kos Deg,Restaurant/Cafe/Canteen,"Market Stall M0.07, Newport Provisions Market, High Street, Newport",NP20 1DD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972111
+1972109,Sona,Restaurant/Cafe/Canteen,"The Celtic Manor Resort, The Coldra, Newport, South Wales",NP18 1HQ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972109
+1972108,Rock & Roll Sandwhich Bar,Restaurant/Cafe/Canteen,"First Floor, 16 Baneswell Road, Newport, South Wales",NP20 4BP,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972108
+1972107,J&Pizza Go,Takeaway/sandwich shop,"1B Commercial Road, Newport, South Wales",NP20 2PA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972107
+1972104,Chicking,Takeaway/sandwich shop,"44 Cardiff Road, Newport, South Wales",NP20 2ED,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972104
+1972103,Yard Island,Takeaway/sandwich shop,"Units 8 To 9, Road B, Wern Industrial Estate, Newport",NP10 9FQ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1972103
+1972101,Classy Express,Takeaway/sandwich shop,"38 Mansel Street, Mount Pleasant",SA1 5SN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1972101
+1971218,Howzat Catering and Event Limited,Other catering premises,"55 High Street, Clydach",SA6 5LH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971218
+1971216,Slice of Paradise LTD,Retailers - other,"516 Mumbles Road, Mumbles",SA3 4BU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971216
+1971213,The Plough and Harrow,Pub/bar/nightclub,"57-59 Church Road, Llansamlet",SA7 9RL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971213
+1971212,Theatre Bistro Ltd,Restaurant/Cafe/Canteen,"176 Neath Road, Landore",SA1 2JT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971212
+1971211,The Cockett Inn,Pub/bar/nightclub,"Waunarlwydd Road, Swansea",SA2 0GB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971211
+1971209,Slimming World with Louisa Halliday,Other catering premises,"Tircoed Forest Village Hall, Y Cyswllt, Penllergaer",SA4 9NY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971209
+1971207,The Pink Pantry,Retailers - other,"27 King Edwards Road, Brynmill",SA1 4LL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971207
+1971206,Chayea,Retailers - other,"215 Oxford Street, City Centre",SA1 3BG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971206
+1971203,Hungry Wild Hogs,Restaurant/Cafe/Canteen,"1 Meadow Street, Townhill",SA1 6RZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971203
+1971202,Palais Coffee,Restaurant/Cafe/Canteen,"91 Mansel Street, Mount Pleasant",SA1 5TZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971202
+1971200,Pixie Cakes and Coffee,Restaurant/Cafe/Canteen,"Unit C Marina Villas, Trawler Road, Maritime Quarter",SA1 1FZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971200
+1971198,Roasted Coffee Shop,Restaurant/Cafe/Canteen,"Technology Centre, Victoria Road, Kingsbridge",SA4 4AS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971198
+1971196,St Catherine's Church,Other catering premises,"St Catherines Church, Alexandra Road, Gorseinon",SA4 4NU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1971196
+1970937,Gwent & Powys Army Cadet Force,Caring Premises,"Cwrt Y Gollen Training Camp, Cwrt Y Gollen, Crickhowell, Powys",NP8 1TP,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1970937
+1970907,True Crispy Cod,Takeaway/sandwich shop,"1 Wainfelin Road, Wainfelin, Pontypool",NP4 6DE,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1970907
+1970617,The Sandwich Corner,Takeaway/sandwich shop,"Pentre House, Chester Road Sandycroft, Flintshire",CH5 2DT,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1970617
+1969609,Nos Da Bakery Ltd,Manufacturers/packers,"Shop Unit B, 44 Tredegar Street, Pontymister",NP11 6BU,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1969609
+1968580,United Infrastructure Subsidised Staff Canteen,Restaurant/Cafe/Canteen,"United Infrastructure Subsidised Staff C, United Infrastructure Major projects, Deeside Lane Sealand, Flintshire",CH1 6BP,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1968580
+1967323,Little Learning Tree,Caring Premises,"St Marys School, Milford Road, Newtown, Powys",SY16 2EH,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1967323
+1966961,Ravens Pantry,Restaurant/Cafe/Canteen,"Unit 2, The Barn Business Park, Coedway, Shrewsbury",SY5 9AR,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1966961
+1966942,Little Stars Nursery,Caring Premises,"St Johns Vicarage, 25 Wern Terrace, Rogerstone, Newport",NP10 9FG,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1966942
+1966939,Bob Shop,Retailers - other,"130 Commercial Street, Newport, South Wales",NP20 1LY,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1966939
+1965921,Chepstow Starbucks,Restaurant/Cafe/Canteen,"land south of junction 2, M48, Chepstow",NP16 6UP,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1965921
+1965920,Chepstow PFS,Retailers - other,"Land to South of Junction 2, M40, Chepstow",NP16 6UP,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1965920
+1965919,Chepstow Subway,Restaurant/Cafe/Canteen,"Chepstow PFS Land South of Junction 2, M48, Chepstow",NP16 6UP,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1965919
+1965452,The Bearded Hedgehog,Manufacturers/packers,"Unit 4 Mamhilad Park Estate, Pontypool",NP4 0HZ,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/1965452
+1965077,Caffi Hyfryd,Restaurant/Cafe/Canteen,"Ysgol Maes Hyfryd, Fifth Avenue, Flintshire",CH6 5QL,Flintshire,Wales,baseline,https://ratings.food.gov.uk/business/1965077
+1964496,Sim Swing Golf Ltd,Retailers - other,"47 St Teilo Street, Pontarddulais",SA4 8SY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964496
+1964493,Chicken Mews Peri Peri,Restaurant/Cafe/Canteen,"136-137 Woodfield Street, Morriston",SA6 8AL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964493
+1964491,Parkview Residential (Swansea) Ltd,Caring Premises,"Parkview House, 73 Pontardawe Road, Clydach",SA6 5NS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964491
+1964490,Elysium Training Club,Retailers - other,"Unit 6 SA1 Business Park, Langdon Road, Swansea Docks",SA1 8DB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964490
+1964486,Antep Restaurant,Restaurant/Cafe/Canteen,"84 The Kingsway, City Centre",SA1 5JE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964486
+1964485,Builders Arms,Pub/bar/nightclub,36 Oxford Street,SA1 3HT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964485
+1964484,Coffi Brawd,Restaurant/Cafe/Canteen,"Unit 13, Tower Court",SA6 8RU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964484
+1964481,Crisis Skylight South Wales,Other catering premises,"163 St Helens Road, Sandfields",SA1 4DQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1964481
+1964450,Caerphilly Cloud Ltd,Retailers - other,"Unit, 65 Cardiff Road, Caerphilly",CF83 1FP,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1964450
+1963286,Peking Town,Takeaway/sandwich shop,"86 High Street, Blaina, Blaenau Gwent",NP13 3BN,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1963286
+1963283,Pizza Time,Takeaway/sandwich shop,"8 Commercial Road, Llanhilleth, Abertillery",NP13 2HS,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1963283
+1963281,Juicy Chick Peri Peri & Fry,Takeaway/sandwich shop,"5 Libanus Road, Ebbw Vale, Blaenau Gwent",NP23 6EJ,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1963281
+1962672,SiHHa.Health Ltd,Restaurant/Cafe/Canteen,"Unit 4, Darren Drive, Prince Of Wales Industrial Estate, Abercarn",NP11 5AR,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1962672
+1962668,Ruck and Coal Kitchen,Other catering premises,"20 Buzzard Way, Penallta, Hengoed",CF82 6GX,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1962668
+1962667,The Moat House Inn,Other catering premises,"Moat House, 30 Lon-Y-Llyn, Caerphilly",CF83 1BY,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1962667
+1962194,Marmaris Kebab And Pizza,Takeaway/sandwich shop,"161 Commercial Road, Newport, South Wales",NP20 2PL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1962194
+1962193,Dragon Vault Games,Retailers - other,"22 - 24 Commercial Street, Newport, South Wales",NP20 1HJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1962193
+1962189,Chapter,Pub/bar/nightclub,"19 High Street, Newport, South Wales",NP20 1FW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1962189
+1962188,Springfield,Caring Premises,"Christchurch Road, Newport, South Wales",NP18 1JJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1962188
+1962187,Three Horseshoes,Pub/bar/nightclub,"45 Pillmawr Road, Newport, South Wales",NP20 6WG,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1962187
+1959724,Nando's Chickenland Ltd,Restaurant/Cafe/Canteen,"Unit 3 West Swansea Retail Park, Pontardulais Road, Cadle",SA5 4BA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1959724
+1959720,Middlefeast pizza and kebab,Takeaway/sandwich shop,"51b High Street, Clydach",SA6 5LH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1959720
+1959710,Zazah Buffet,Restaurant/Cafe/Canteen,"The City Gates, Little Wind Street, City Centre",SA1 1ED,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1959710
+1959707,Aynki Premier,Retailers - other,"11 Nelson Street, City Centre",SA1 3QE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1959707
+1959705,DNA Lounge,Pub/bar/nightclub,"3a St Helens Road, Sandfields",SA1 4AN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1959705
+1959217,Premier Mcdonnell Road,Retailers - other,"Unit, Mcdonnell Pub, Mcdonnell Road, Bargoed",CF81 8UD,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1959217
+1958064,Dragons Breath Distillery,Manufacturers/packers,"Unit 1, Leeway, Leeway Industrial Estate, Newport",NP19 4SL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1958064
+1958058,Lisa's Deli,Takeaway/sandwich shop,"438 Chepstow Road, Newport, South Wales",NP19 8JG,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1958058
+1958057,Evergreen Harvest @ The Market,Retailers - other,"Unit 24, Kingsway Centre, John Frost Square, Newport",NP20 1ED,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1958057
+1958055,Thai District,Restaurant/Cafe/Canteen,"Royal Albert Inn, 1 - 3 Albert Avenue, Newport, South Wales",NP19 8FF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1958055
+1957687,Yuwa Naturals Ltd,Importers/Exporters,"Unit 6 Forge Row, Caldicot Works, Caldicot",NP26 5XG,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1957687
+1957681,Ana's Sweet Temptations,Retailers - other,"49 Maple Avenue, Bulwark, Chepstow",NP16 5RG,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1957681
+1957679,Abergavenny Labour Hall and Institute Ltd,Other catering premises,"110 Park Crescent, Abergavenny, Monmouthshire",NP7 5TN,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1957679
+1955124,Tita & Titos  Ilocos Empanada,Takeaway/sandwich shop,"27 Commercial Street, Ystradgynlais, Swansea",SA9 1JH,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1955124
+1950664,Treat & Eat,Retailers - other,"26A/B Swansea Market, Oxford Street, City Centre",SA1 3PQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1950664
+1950663,Elysium Art Ltd,Restaurant/Cafe/Canteen,"12-24 Belle Vue Way, City Centre",SA1 5BY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1950663
+1950355,Ducks Catering & Events @ Barcode,Restaurant/Cafe/Canteen,"The Pod, Rodney Road, Newport, South Wales",NP19 0AD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1950355
+1950353,Ostuni Bakery Ltd,Manufacturers/packers,"Unit 3, Evtol Trading Estate, Frederick Street, Newport",NP20 2DR,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1950353
+1949535,Caws Riot,Retailers - other,"Unit 49a Swansea Market, Oxford Street, City Centre",SA1 3PQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949535
+1949531,Ula Mumbles,Restaurant/Cafe/Canteen,"3 Mumbles Road, Mumbles",SA3 4DN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949531
+1949528,Phoenix Cash and Carry,Retailers - other,"33a Llangyfelach Street, Waun Wen",SA1 2BQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949528
+1949527,Down By Here,Pub/bar/nightclub,"210 High Street, City Centre",SA1 1PE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949527
+1949526,L4 Cafe,Restaurant/Cafe/Canteen,"Phoenix Centre, Powys Avenue",SA16PH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949526
+1949523,Sultan Shawarma,Takeaway/sandwich shop,"4 St Helens Road, Sandfields",SA1 4AN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949523
+1949522,Jaoyeh Trading Ltd,Distributors/Transporters,"Unit D, Lakeside Technology Park, Swansea Enterprise Park",SA7 9FF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949522
+1949521,Mumbai 2 Karachi,Takeaway/sandwich shop,"53a The Kingsway, City Centre",SA1 5HQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949521
+1949518,The Mill Cocktail Bar,Pub/bar/nightclub,"The Mill House, Cwmbath Road, Morriston",SA6 7AU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949518
+1949517,Dinu's Pizza,Restaurant/Cafe/Canteen,"284 Swansea Road, Waunarlwydd",SA5 4SL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949517
+1949516,The Hive,Restaurant/Cafe/Canteen,"The Climbing Hangar, Castell Close, Swansea Enterprise Park",SA7 9FH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949516
+1949515,Jamshid-Jam Supermarket Ltd,Retailers - other,"94 Brynymor Road, Brynmill",SA1 4JG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949515
+1949514,Bean & Bloom Cafe,Restaurant/Cafe/Canteen,"IAG UK & Europe Church, Crickhowell Place, Winch Wen",SA1 7DP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1949514
+1949253,Abergavenny Pizza,Takeaway/sandwich shop,"Claremont House, 15 Nevill Street, Abergavenny, Monmouthshire",NP7 5AA,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1949253
+1949251,Shalim Tandoori,Restaurant/Cafe/Canteen,"37 Moor Street, Chepstow, Monmouthshire",NP16 5DF,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1949251
+1949241,Annapurna,Restaurant/Cafe/Canteen,"29 High Street, Chepstow, Monmouthshire",NP16 5LJ,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1949241
+1949238,Chepstow Art Space Ltd,Restaurant/Cafe/Canteen,"The Old Memorial Library, Upper Nelson Street, Chepstow",NP16 5PG,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1949238
+1949236,Toast & Timber,Restaurant/Cafe/Canteen,"Unit 3 The Old Police Station, Baker Street, Abergavenny, Monmouthshire",NP7 5BB,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1949236
+1945501,Spar,Retailers - other,"428 Chepstow Road, Newport, South Wales",NP19 8JH,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1945501
+1945498,Blind Tiger,Restaurant/Cafe/Canteen,"First Floor, 48 - 50 Cambrian Road, Newport, South Wales",NP20 4AB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1945498
+1945495,Jasmine Rice Chinese Takeaway,Takeaway/sandwich shop,"27 Commercial Road, Newport, South Wales",NP20 2PB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1945495
+1945494,Party 'N' Play,Other catering premises,"Ground And First Floor, Victoria House, 136 - 140 Corporation Road, Newport",NP19 0BH,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1945494
+1945491,Palestine Cola UK,Retailers - other,"Plot 3, Property Known As Pink Self Storage, Coverack Road, Newport",NP19 0DS,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1945491
+1943487,Continue Retro Gaming Lounge,Restaurant/Cafe/Canteen,"32 Princess Way, City Centre",SA1 5HE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1943487
+1943481,The Pavilion Cafe,Restaurant/Cafe/Canteen,"The Pavillion, Y Gelli",SA7 9NG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1943481
+1943480,Thai Fountain,Restaurant/Cafe/Canteen,"111 Bolgoed Road, Pontarddulais",SA4 8JP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1943480
+1943478,108 Best Food,Takeaway/sandwich shop,"28 Conway Road, Penlan",SA5 7BD,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1943478
+1943477,Dyfatty Junction Community Spaces (Kitchen),Restaurant/Cafe/Canteen,"106 High Street, City Centre",SA1 1LZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1943477
+1941361,Brewd,Restaurant/Cafe/Canteen,"36 Church Road, Newport, South Wales",NP19 7EL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1941361
+1938760,Yunara Coffee,Retailers - other,"Solar Farm, Killan Road, Dunvant",SA2 7US,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1938760
+1938757,Travellers Well Inn,Pub/bar/nightclub,"554 Carmarthen Road, Cwmbwrla",SA5 8LA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1938757
+1937434,Bobl Bach Clare Ltd,Caring Premises,"Trinant Health Centre, Trinant Terrace, Trinant, Newport",NP11 3JJ,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1937434
+1936234,Maeames,Restaurant/Cafe/Canteen,"82 The Kingsway, City Centre",SA1 5JH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936234
+1936230,Sloth Coffee Co.,Restaurant/Cafe/Canteen,"Oyster Wharf, 149-151 Mumbles Road, Mumbles",SA3 4DN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936230
+1936227,New Golden Palace,Takeaway/sandwich shop,"67 Peniel Green Road, Llansamlet",SA7 9AP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936227
+1936226,Place of Victory,Retailers - other,"47B Westbury Street, Central Swansea",SA1 4JW,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936226
+1936222,Thebakingfairybypiya,Retailers - other,"Unit 20A, Swansea Market, Swansea",SA1 3PQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936222
+1936219,Kayla's Cafe,Restaurant/Cafe/Canteen,"132 Port Tennant Road, Port Tennant",SA1 8JQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936219
+1936217,SO Barista School,Restaurant/Cafe/Canteen,"Axis 17 Axis Court Riverside Business Park, Mallard Way, Swansea Vale",SA7 0AJ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936217
+1936216,Royal Pizza & Kebabs,Takeaway/sandwich shop,"11 Mansel Street, Mount Pleasant",SA1 5SF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1936216
+1935191,Matchbox Pickleball,Restaurant/Cafe/Canteen,"2 East Bank Road, Felnex Industrial Estate, Newport, South Wales",NP19 4PP,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1935191
+1935189,Banc Coffee & Records,Restaurant/Cafe/Canteen,"Site Known As Banc Coffee And Records, Llanarth Court, Usk Way, Newport",NP20 2FX,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1935189
+1931727,Reene,Caring Premises,"Reene House, Reene Court, Newport, South Wales",NP19 0RJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1931727
+1931724,The Mead Farm,Manufacturers/packers,"Mead Lane, Redwick, Newport, South Wales",NP26 3DE,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1931724
+1931720,MOMOPLUS+,Takeaway/sandwich shop,"Food Stall FC0.02, Newport Provisions Market, High Street, Newport",NP20 1DD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1931720
+1931719,Beth's Bakes,Manufacturers/packers,"Unit 4, 1 Kiln Square, Newport, South Wales",NP19 9EH,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1931719
+1929669,PIZZA BOI,Takeaway/sandwich shop,"Hot 4 You 5 Broad Street, Barry, Vale Of Glamorgan",CF62 7AA,Vale of Glamorgan,Wales,baseline,https://ratings.food.gov.uk/business/1929669
+1929405,The Manselton Hotel,Pub/bar/nightclub,"1-2 Penfilia Road, Brynhyfryd",SA5 9HX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929405
+1929402,New Bees Community Team Foodshare,Retailers - other,"Loughor Rugby Football Club, Belgrave Road",SA4 6RF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929402
+1929397,Aurora Wellness,Restaurant/Cafe/Canteen,"Campion Gardens Village, Mayals Road Clyne Common, Mayals",SA3 3JB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929397
+1929393,Oyster Coffee,Restaurant/Cafe/Canteen,"66 Newton Road, Mumbles",SA3 4BE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929393
+1929392,Caffi Pawb,Restaurant/Cafe/Canteen,"Penllergaer Primary School, Pontardulais Road, Penllergaer",SA4 9DB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929392
+1929391,Saint Hugo Ltd,Retailers - other,"30 Newton Road, Mumbles",SA3 4AX,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929391
+1929390,Morley's Chicken,Takeaway/sandwich shop,"7 Mansel Street, Mount Pleasant",SA1 5SF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929390
+1929382,Street Food Nation,Takeaway/sandwich shop,"Second Floor, 11 Wind Street, City Centre",SA1 1DP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929382
+1929381,Sweeties,Retailers - other,"Morriston Auto & Tuning, Aran Street, Morriston",SA6 7DB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929381
+1929380,Woodrows Coffee,Restaurant/Cafe/Canteen,"The Law Courts, St Helends Road, Sandfields",SA1 4PF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929380
+1929375,Uplands Fish Bar and Kebab House,Takeaway/sandwich shop,"4a Gwydr Square, Uplands",SA2 0HB,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1929375
+1927666,Pitchside Cafe,Restaurant/Cafe/Canteen,"The Kitchen, Caldicot Football Club, Jubilee Way",NP26 4NA,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1927666
+1927034,Anjum Spice,Takeaway/sandwich shop,"167 Corporation Road, Newport, South Wales",NP19 0BJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1927034
+1927033,Fowl And Fury,Restaurant/Cafe/Canteen,"Food Stall FC0.08, Newport Provisions Market, High Street, Newport",NP20 1DD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1927033
+1924173,Pizza Venice,Takeaway/sandwich shop,"63 St Helens Road, Sandfields",SA1 4BE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1924173
+1924171,Hungry Head,Takeaway/sandwich shop,"2 Pontardulais Road, Gorseinon",SA4 4FE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1924171
+1924170,N. C. Supplies,Distributors/Transporters,"Unit 10 Queensway Business Centre, Queensway, Fforestfach",SA5 4DT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1924170
+1924168,Slimming World Grovesend,Retailers - other,"4 Plas Road, Grovesend",SA4 4WG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1924168
+1923940,Prosper Care & Support Limited,Caring Premises,"76 James Street, Markham, Blackwood",NP12 0QP,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1923940
+1923679,New House Farm,Other catering premises,"Waste Road, Dingestow, Monmouth",NP25 4EB,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1923679
+1923675,Ty Gwair,Caring Premises,"Kemeys Road, Chainbridge, Abergavenny",NP7 9DS,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1923675
+1923660,The Lion,Pub/bar/nightclub,"2 Bank Street, Chepstow, Monmouthshire",NP16 5EL,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1923660
+1921811,Rosewood House,Caring Premises,"170 Ringland Circle, Newport, South Wales",NP19 9PL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1921811
+1921810,Yazbar Limited,Takeaway/sandwich shop,"236A Stow Hill, Newport, South Wales",NP20 4HA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1921810
+1921809,Low And Slow Barbecue,Restaurant/Cafe/Canteen,"22 - 23 High Street, Newport, South Wales",NP20 1FX,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1921809
+1921805,Human Fuel Station,Restaurant/Cafe/Canteen,"12 Upper Dock Street, Newport, South Wales",NP20 1DF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1921805
+1921801,The Pembrokeshire Fish Company,Retailers - other,"The Great Barn, Bishton Road, Bishton, Newport",NP18 2DZ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1921801
+1920770,Go Local Extra (Tredegar),Retailers - other,"21-22 Castle Street, Tredegar, Blaenau Gwent",NP22 3DF,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1920770
+1919951,Immy's On Fire,Takeaway/sandwich shop,"Unit 3, Carmarthen Road, Waun Wen",SA1 1HE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1919951
+1919948,Keralacafe Swansea /Kerala Jacks,Restaurant/Cafe/Canteen,"37 Uplands Crescent, Uplands",SA2 0NP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1919948
+1919944,The Lliw Cafe,Restaurant/Cafe/Canteen,"The Lower Lliw Reservoir, Felindre",SA5 7NH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1919944
+1918682,Slimming World Franchise,Retailers - other,"3 St Catherines Close, Neath, Neath Port Talbot",SA11 2DU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1918682
+1918242,The Doghouse,Pub/bar/nightclub,"650 Mumbles Road, Mumbles",SA3 4EA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1918242
+1918239,Little Buddha Ltd,Takeaway/sandwich shop,"142 Port Tennant Road, Port Tennant",SA1 8JQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1918239
+1918234,Gin & Tapas,Restaurant/Cafe/Canteen,"61 Newton Road, Mumbles",SA3 4BL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1918234
+1918233,Iokasti's Kitchen by Marianthi Daviou,Retailers - other,"Unit 27 Swansea Market, Oxford Street, City Centre",SA1 3PQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1918233
+1917601,Bap House,Other catering premises,"Centre Management Suite, Friars Walk Shopping Centre, John Frost Square, Newport",NP20 1EA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1917601
+1917600,The Panacea Health Club,Pub/bar/nightclub,"St Mellons Country Hotel And Country Club, Newport Road, Cardiff, South Wales",CF3 2XR,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1917600
+1917598,The Friendly Fox,Pub/bar/nightclub,"33 Caerphilly Close, Rhiwderin, Newport, South Wales",NP10 8RF,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1917598
+1915628,Gower Retreats Ltd - T/A Olive Wine Bar and Tapas,Restaurant/Cafe/Canteen,"Llwynybwch Farm, Unclassified Section - Y2245, Llanrhidian",SA3 1HA,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1915628
+1915627,Deccan Flavours PVT Limited,Takeaway/sandwich shop,"68 St Helens Road, Sandfields",SA1 4BE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1915627
+1915624,Wind Street Stores,Retailers - other,"53 Wind Street, City Centre",SA1 1EG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1915624
+1914190,The Besties Bar,Pub/bar/nightclub,"26 Neath Road, Resolven, Neath Port Talbot",SA11 4AA,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1914190
+1913850,M.Monni's Fish Bar,Takeaway/sandwich shop,"98 Brynymor Road, Brynmill",SA1 4JG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913850
+1913849,"Darkside Cafe, Bar & Drinks",Restaurant/Cafe/Canteen,"21 Park Street, City Centre",SA1 3DJ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913849
+1913847,Pizza Grove,Takeaway/sandwich shop,"Unit 2, Heol Nant Bran, Birchgrove",SA7 9LS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913847
+1913846,The Shared Plate Cic,Other catering premises,"88 St Helens Avenue, Brynmill",SA1 4NN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913846
+1913845,Rane Bengal,Takeaway/sandwich shop,"55 Woodfield Street, Morriston",SA6 8BW,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913845
+1913837,Problematic Pub Comedy Club,Pub/bar/nightclub,"11 Strand, City Centre",SA1 2AE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1913837
+1913522,Tasty Traditions,Restaurant/Cafe/Canteen,"10 Risca Road, Newport, South Wales",NP20 4JW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1913522
+1913520,Yum Yum,Retailers - other,"Ground Floor, 60 Commercial Street, Newport, South Wales",NP20 1LQ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1913520
+1910218,Afan Mountain Lodge,Hotel/bed & breakfast/guest house,"Afan Lodge Hotel, Afan Road, Duffryn Rhondda, Neath Port Talbot",SA13 3ES,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1910218
+1910013,Beaufort Pantry,Distributors/Transporters,"The Beaufort Community Centre, Beaufort Road, Newport, South Wales",NP19 7UB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1910013
+1908195,The Brunswick Arms,Restaurant/Cafe/Canteen,"3 Duke Street, Central Swansea",SA1 4HS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1908195
+1908190,Burger Home Swansea,Takeaway/sandwich shop,"85 Broughton Avenue, Blaenymaes",SA5 5LN,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1908190
+1908184,The Street Food Kings,Restaurant/Cafe/Canteen,"Llanrhidian Holiday Park, Unlassified Section-Y2033, Llanrhidian",SA3 1EU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1908184
+1904159,Dead Happy Kitchen,Restaurant/Cafe/Canteen,"50 Norfolk Street, Mount Pleasant",SA1 6JQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904159
+1904153,Velvet Green Cafe,Restaurant/Cafe/Canteen,"33 Princess Way, City Centre",SA1 5HF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904153
+1904151,The Studio Hub,Restaurant/Cafe/Canteen,"95 Mansel Street, Mount Pleasant",SA1 5TZ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904151
+1904150,Gower Lavender Ltd,Retailers - other,"Killay Fawr Farm, Gower Road, Upper Killay",SA2 7DP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904150
+1904149,Rock and Scallop,Takeaway/sandwich shop,"Albert Hall, 27 Cradock Street, City Centre",SA1 3EP,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904149
+1904148,Bella Ciao,Restaurant/Cafe/Canteen,"698 Mumbles Road, Swansea",SA3 4EH,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904148
+1904147,The Crispy Cod,Restaurant/Cafe/Canteen,"1392 Neath Road, Hafod",SA1 2HE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1904147
+1903527,M B Fish Bar,Takeaway/sandwich shop,"26 Commercial Street, Tredegar, Blaenau Gwent",NP22 3DH,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1903527
+1899550,Hotel 24/7,Hotel/bed & breakfast/guest house,"161 Corporation Road, Newport, South Wales",NP19 0BJ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1899550
+1897009,Dough Republic,Restaurant/Cafe/Canteen,"4-6 College Street, City Centre",SA1 5AE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1897009
+1897007,Jubo Raj,Takeaway/sandwich shop,"8 Sway Road, Morriston",SA6 6HT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1897007
+1892184,Jans Iced Gems,Manufacturers/packers,"16 Station Road, Ystradgynlais, Swansea",SA9 1NP,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1892184
+1891126,Kalar Market,Retailers - other,"8 Mansel Street, Mount Pleasant",SA1 5SF,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1891126
+1891124,Wind Street Kebab and Pizza,Takeaway/sandwich shop,"55 Wind Street, City Centre",SA1 1EG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1891124
+1891119,Mumbles House,Restaurant/Cafe/Canteen,"40 Newton Road, Mumbles",SA3 4BQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1891119
+1890053,Little Mill Natural Products,Manufacturers/packers,"Abergavenny Community Centre, The Old School, Park Street, Abergavenny",NP7 5YB,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/1890053
+1888899,Fire And Ice,Pub/bar/nightclub,"11 - 15 Cambrian Road, Newport, South Wales",NP20 4AD,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1888899
+1888898,Legacy,Pub/bar/nightclub,"49 High Street, Newport, South Wales",NP20 1GA,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1888898
+1885902,Applied Nutritional Research Ltd,Manufacturers/packers,"Unit 4, Oakdale Court  Bryn Brithdir, Oakdale Business Park, Oakdale",NP12 4AD,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1885902
+1884046,Meat Up Spot Restaurant and Grill House,Restaurant/Cafe/Canteen,"37 St Helens Road, Sandfields",SA1 4AY,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1884046
+1878646,Slimming World with Sue H,Retailers - other,"12 Ynys Y Mond Road, Alltwen, Pontardawe",SA8 3BA,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1878646
+1876214,Chartwells @ Ysgol Gymraeg Nant Gwenlli,School/college/university,"Ysgol Gymraeg Nant Gwenlli, Capel Crescent, Newport, South Wales",NP20 2FT,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1876214
+1875631,Nanwich Tikka House,Takeaway/sandwich shop,"19 Mansel Street, Mount Pleasant",SA1 5SG,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1875631
+1875630,Dragon Vape,Retailers - other,"440 Gower Road, Killay",SA2 7AJ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1875630
+1868099,Efes Pizza & Grill House,Takeaway/sandwich shop,"438 Gower Road, Killay",SA2 7AJ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1868099
+1867836,Chip Stop Express Ltd,Takeaway/sandwich shop,"121 Commercial Road, Newport, South Wales",NP20 2GW,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1867836
+1867750,Keto Crate,Retailers - other,"97 Main Road, Crynant, Neath Port Talbot",SA10 8PF,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1867750
+1862093,Maindee Discount Store,Retailers - other,"201 Corporation Road, Newport, South Wales",NP19 0EB,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1862093
+1860955,The Welf,Pub/bar/nightclub,"Resolven Miners Welfare Association, Neath Road, Resolven, Neath Port Talbot",SA11 4AH,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1860955
+1860951,Family Pizza Kebab,Takeaway/sandwich shop,"28 Windsor Road, Neath, Neath Port Talbot",SA11 1LU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1860951
+1857967,Port Tennant Community Centre Foodbank (Part of Swansea Foodbank),Retailers - other,"Port Tennant Community Centre, Wern Fawr Road, Port Tennant",SA1 8LQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1857967
+1857962,Llew's Leaves,Farmers/growers,"2 Furzehill Green, Lunnon",SA2 7LQ,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1857962
+1848747,St Albans Church Hall,Other catering premises,"St Albans Church, New Road, Treboeth",SA5 9DE,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1848747
+1848735,Arthur's Stone Brewery Ltd,Retailers - other,"Unit 23, Crofty Industrial Estate, Crofty",SA4 3RS,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1848735
+1847914,Farmers Arms,Pub/bar/nightclub,"Goldcliff Road, Goldcliff, Newport, South Wales",NP18 2AU,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1847914
+1845553,MAI Mini Shop,Retailers - other,"136 Samlet Road, Llansamlet",SA7 9AL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1845553
+1845540,Lottie Dotty,Retailers - other,"92 Queen Victoria Street, Tredegar, Blaenau Gwent",NP22 3PX,Blaenau Gwent,Wales,baseline,https://ratings.food.gov.uk/business/1845540
+1842530,DWS Wholesale,Distributors/Transporters,"Unit 4 Acorn Court, Llansamlet",SA6 8QU,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1842530
+1841711,Carly's Catering,Retailers - other,"27 Derwen Road, Alltwen, Pontardawe",SA8 3AU,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1841711
+1840111,Perfection Pizza,Takeaway/sandwich shop,"176 Corporation Road, Newport, South Wales",NP19 0DQ,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1840111
+1833075,L&A Outdoor Centre,Hotel/bed & breakfast/guest house,"L&A Lodges, Goytre, Port Talbot",SA13 2YP,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1833075
+1833073,Welsh Scoop,Manufacturers/packers,"7 Church Lane, Cwmgors, Neath Port Talbot",SA18 1PF,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1833073
+1809894,Aramark @ CG Newport Campus,School/college/university,"Coleg Gwent Newport Campus, Nash Road, Newport, South Wales",NP19 4TS,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1809894
+1809893,Nos Da Bakery,Manufacturers/packers,"Unit 11, Evtol Trading Estate, Frederick Street, Newport",NP20 2DR,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1809893
+1805256,Gwent Valleys Evangelism,Retailers - other,"Ael-y-bryn Sports and Community Centre, Ael-Y-Bryn, Rhymney, Tredegar",NP22 5DS,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1805256
+1774753,"Pontardawe Lodge, Athena Care Group Ltd",Caring Premises,"Craig Y Rhedyn, 9 Uplands Road, Pontardawe, Neath Port Talbot",SA8 4AH,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1774753
+1763574,Slimming World Franchise,Retailers - other,"43 Alexander Road, Rhyddings, Neath Port Talbot",SA10 8EG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1763574
+1760676,Newport Sudanese Community,Restaurant/Cafe/Canteen,"7 Francis Drive, Newport, South Wales",NP20 2RU,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1760676
+1742154,Crafty Smuggler Coffee,Retailers - other,"Unit 15 St Davids Industrial Estate, St Davids Road, Swansea Enterprise Park",SA6 8QL,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/1742154
+1719360,Godre'r Graig Primary School (portacabin),School/college/university,"Godre'r Graig Primary School Cwmtawe Community School, Ffordd Parc Ynysderw, Pontardawe, Neath Port Talbot",SA8 4EG,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1719360
+1698689,The Plant Age,Manufacturers/packers,"Unit 1d, Silver Birch Court, The Lawns Industrial Estate, Rhymney",NP22 5QB,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1698689
+1696756,Jayne’s Mother and Baby Bank and Foodbank Fundraising Shop,Retailers - other,"Shop, 68 Tredegar Street, Risca, Newport",NP11 6BW,Caerphilly,Wales,baseline,https://ratings.food.gov.uk/business/1696756
+1634394,Resolven Bowls Club,Pub/bar/nightclub,"The Bowls Pavilion Resolven Park, 7 Vaughan Avenue, Resolven, Neath Port Talbot",SA11 4HW,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1634394
+1604474,Olleco,Farmers/growers,"C And D Oil, New Quay Road, Felnex Industrial Estate, Newport",NP19 4PL,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1604474
+1604468,T K Maxx,Retailers - other,"Unit 2, Mendalgief Retail Park, Docks Way, Newport",NP20 2NY,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1604468
+1604456,Superdrug,Retailers - other,"147 Commercial Street, Newport, South Wales",NP20 1LN,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1604456
+1604448,Flying Angel Mission To Seafarers,Pub/bar/nightclub,"Mission To Seamen, 2 East Way Road, Alexandra Docks, Newport",NP20 2NP,Newport,Wales,baseline,https://ratings.food.gov.uk/business/1604448
+1430634,Funky Footsteps Out of Hours Club,Caring Premises,"Tywyn Primary School, Channel View, Sandfields, Neath Port Talbot",SA12 6JF,Neath Port Talbot,Wales,baseline,https://ratings.food.gov.uk/business/1430634
+1394432,Garlic Takeaway,Takeaway/sandwich shop,"10 Williams Street, Holyhead, Isle Of Anglesey",LL65 1RN,Anglesey,Wales,baseline,https://ratings.food.gov.uk/business/1394432
+1392764,Canolfan Llwynihirion Brynberian,Other catering premises,"Brynberian Community Centre, Brynberian, Crymych, Pembrokeshire",SA41 3TY,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/1392764
+1378487,Nepal Mountains,Restaurant/Cafe/Canteen,"Newton Park, Llanfaes, Brecon, Powys",LD3 8PA,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1378487
+1156638,Brooksgrove Farm,Farmers/growers,"Brooksgrove Brooksgrove Lane, Haverfordwest, Pembrokeshire",SA61 1XR,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/1156638
+1155437,Cardiff Service Station,Retailers - other,"145 Newport Road, Roath, Cardiff",CF24 1AG,Cardiff,Wales,baseline,https://ratings.food.gov.uk/business/1155437
+1131325,Hope & Anchor / Galley Cafe @ Hope and Anchor Inn,Restaurant/Cafe/Canteen,"Hope And Anchor Inn Goodwick Square, Goodwick, Pembrokeshire",SA64 0BP,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/1131325
+1079332,The Sarn,Pub/bar/nightclub,"Sarn, Newtown, Powys",SY16 4EN,Powys,Wales,baseline,https://ratings.food.gov.uk/business/1079332
+1077195,Cinnamon Grove Gin / Distillery,Manufacturers/packers,"Cinnamon Grove Old Hakin Road, Merlins Bridge, Haverfordwest, Pembrokeshire",SA61 1XG,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/1077195
+978161,Cig Oen Caron Cyf,Retailers - other,"Rhyd Y Gwreiddyn, Tregaron, Ceredigion",SY25 6NH,Ceredigion,Wales,baseline,https://ratings.food.gov.uk/business/978161
+921789,Rozis Tandoori,Restaurant/Cafe/Canteen,"16 Meliden Road, Prestatyn, Denbighshire",LL19 9RT,Denbighshire,Wales,baseline,https://ratings.food.gov.uk/business/921789
+892781,Meadow House Caravan Park / Hall bros leisure Ltd,Other catering premises,"Meadow House Holiday Park, Summerhill, Narberth, Pembrokeshire",SA67 8NS,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/892781
+857656,Canolfan Clydau Community Hall,Caring Premises,"Annedd Wen, Tegryn, Llanfyrnach, Pembrokeshire",SA35 0BE,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857656
+857481,Gwenyn Gwaun,Other catering premises,"Esgyrn Farm, Llanychaer, Fishguard, Pembrokeshire",SA65 9SA,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857481
+857442,The Cake Lady,Other catering premises,"1 Bryn Road, St Davids, Pembrokeshire",SA62 6SG,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857442
+857380,Nautico's,Restaurant/Cafe/Canteen,"7 - 8 Sovereign House Nelson Quay, Milford Haven, Pembrokeshire",SA73 3AJ,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857380
+857238,HONGKONG HOUSE,Takeaway/sandwich shop,"86 Portfield, Haverfordwest, Pembrokeshire",SA61 1BT,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857238
+857206,Thirty Five Main Street,Restaurant/Cafe/Canteen,"Felingog 35 Main Street, Solva, Pembrokeshire",SA62 6UT,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/857206
+856945,OUT PEMBROKE,Pub/bar/nightclub,"14 Main Street, Pembroke, Pembrokeshire",SA71 4NP,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856945
+856862,Monkton Swifts / Monkton Swifts Social Club,Pub/bar/nightclub,"Monkton Swifts Football Afc Monkton Lane, Monkton, Pembroke, Pembrokeshire",SA71 4LP,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856862
+856853,Redford Caravan Park Ltd,Pub/bar/nightclub,"Redford Caravan Park, Princes Gate, Narberth, Pembrokeshire",SA67 8TD,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856853
+856781,Saundersfoot sports and social club ltd,Other catering premises,"King George V Playing Fields Milford Street, Saundersfoot, Pembrokeshire",SA69 9NG,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856781
+856737,Milton Brewery Inn,Pub/bar/nightclub,"Milton Brewery, Milton, Tenby, Pembrokeshire",SA70 8PH,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856737
+856690,Preseli Filling Station,Retailers - other,"Llanddewi Velfrey, Narberth, Pembrokeshire",SA67 7PD,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856690
+856671,Milford United Sportsmans Club,Pub/bar/nightclub,"Milford Haven Afc Marble Hall Road, Milford Haven, Pembrokeshire",SA73 2PE,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856671
+856503,Fishguard Holiday Park,Restaurant/Cafe/Canteen,"Green Acres Fishguard Holiday Park Carreg Onnen, Fishguard, Pembrokeshire",SA65 9JH,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856503
+856429,Ye Old Inn,Pub/bar/nightclub,"The Old Inn, Camrose, Haverfordwest, Pembrokeshire",SA62 6HY,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856429
+856378,Grove Hotel/ L&D Pubs,Pub/bar/nightclub,"Grove Hotel 51 High Street, St Davids, Pembrokeshire",SA62 6SB,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856378
+856350,Dyffryn Arms,Pub/bar/nightclub,"Pontfaen, Fishguard, Pembrokeshire",SA65 9SE,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856350
+856294,Cardigan Bay Holiday Park,Restaurant/Cafe/Canteen,"Poppit, St Dogmaels, Pembrokeshire",SA43 3LW,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856294
+856201,Post Office Pembroke/ Suhrad Global Ltd,Retailers - other,"Post Office 49 Main Street, Pembroke, Pembrokeshire",SA71 4JT,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856201
+856128,Windsor Hotel / Windsor Local Hotel,Hotel/bed & breakfast/guest house,"Windsor Hotel 6 Church Road, Johnston, Pembrokeshire",SA62 3HE,Pembrokeshire,Wales,baseline,https://ratings.food.gov.uk/business/856128
+702191,Llanidloes Cricket Club,Pub/bar/nightclub,"The Recreation Ground, Llangurig Road, Llanidloes, Powys",SY18 6ES,Powys,Wales,baseline,https://ratings.food.gov.uk/business/702191
+574234,Trevethin and Penygarn Community Centre,Other catering premises,"Folly Lane, Trevethin, Pontypool",NP4 8DH,Torfaen,Wales,baseline,https://ratings.food.gov.uk/business/574234
+560293,Border Bites Sandwich Bar,Takeaway/sandwich shop,"8 High Street, Knighton, Powys",LD7 1AT,Powys,Wales,baseline,https://ratings.food.gov.uk/business/560293
+510076,The Sun Inn,Pub/bar/nightclub,"St Harmon, Rhayader, Powys",LD6 5LH,Powys,Wales,baseline,https://ratings.food.gov.uk/business/510076
+375325,B & M Retail Ltd,Restaurant/Cafe/Canteen,"Pool Road, Newtown, Powys",SY16 3AF,Powys,Wales,baseline,https://ratings.food.gov.uk/business/375325
+307992,Cariad Catering,Restaurant/Cafe/Canteen,"Pentre Farm, Llansoy, Usk",NP15 1DF,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/307992
+231333,Kingswood Arms Cock forden,Pub/bar/nightclub,"The Forge, Forden, Welshpool, Powys",SY21 8LX,Powys,Wales,baseline,https://ratings.food.gov.uk/business/231333
+182398,The Kitchen Table Cafe,Restaurant/Cafe/Canteen,"The Cross, Llanymynech, Powys",SY22 6EN,Powys,Wales,baseline,https://ratings.food.gov.uk/business/182398
+177139,Westwood Park Hotel,Pub/bar/nightclub,"Salop Road, Welshpool, Powys",SY21 7EA,Powys,Wales,baseline,https://ratings.food.gov.uk/business/177139
+176473,The Pinewood,Pub/bar/nightclub,"1 Broad Street, Welshpool, Powys",SY21 7RZ,Powys,Wales,baseline,https://ratings.food.gov.uk/business/176473
+164715,Aberceiros Inn,Pub/bar/nightclub,"Llangammarch Wells, Powys",LD4 4EW,Powys,Wales,baseline,https://ratings.food.gov.uk/business/164715
+163758,Brecon Workmans,Pub/bar/nightclub,"Brecon Workmans Club, Watergate, Brecon, Powys",LD3 9AN,Powys,Wales,baseline,https://ratings.food.gov.uk/business/163758
+152091,Measure Inn,Pub/bar/nightclub,"63-65 Newport Road, Caldicot, Monmouthshire",NP26 4BR,Monmouthshire,Wales,baseline,https://ratings.food.gov.uk/business/152091
+118654,Tafarn Y Bont,Restaurant/Cafe/Canteen,"Bridge Inn, Telford Road, Menai Bridge, Isle Of Anglesey",LL59 5DT,Anglesey,Wales,baseline,https://ratings.food.gov.uk/business/118654
+116442,Bulkeley  Hotel,Restaurant/Cafe/Canteen,"19 Castle Street, Beaumaris, Isle Of Anglesey",LL58 8AW,Anglesey,Wales,baseline,https://ratings.food.gov.uk/business/116442
+100541,Southgate County Club (Bar only),Pub/bar/nightclub,"15 Southgate Road, Southgate",SA3 2BT,Swansea,Wales,baseline,https://ratings.food.gov.uk/business/100541
+41013,Pen Bakes Eats and Treats,Restaurant/Cafe/Canteen,"2 Oxford Arcade Pant Yr Afon, Penmaenmawr, Conwy",LL34 6AE,Conwy,Wales,baseline,https://ratings.food.gov.uk/business/41013
