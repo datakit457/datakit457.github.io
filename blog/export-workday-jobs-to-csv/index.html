@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="UGHXCyT_DOzYDBbW0YrLS6TLBcLGLug9GjAOUDA4WCg" /><title>Export open jobs from a Workday careers site to CSV (Python)</title><meta name="description" content="Export open jobs from any Workday careers site to CSV with a short Python script: keyless JSON endpoint, pagination, 2,000-result limit."><link rel="canonical" href="https://datakit457.github.io/blog/export-workday-jobs-to-csv/"><meta property="og:type" content="article"><meta property="og:title" content="Export open jobs from a Workday careers site to CSV (Python)"><meta property="og:description" content="Export open jobs from any Workday careers site to CSV with a short Python script: keyless JSON endpoint, pagination, 2,000-result limit."><meta property="og:url" content="https://datakit457.github.io/blog/export-workday-jobs-to-csv/"><meta property="og:site_name" content="datakit"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Export open jobs from a Workday careers site to CSV (Python)"><meta name="twitter:description" content="Export open jobs from any Workday careers site to CSV with a short Python script: keyless JSON endpoint, pagination, 2,000-result limit."><link rel="alternate" type="application/atom+xml" href="https://datakit457.github.io/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Export open jobs from a Workday careers site to CSV (Python)", "description": "Export open jobs from any Workday careers site to CSV with a short Python script: keyless JSON endpoint, pagination, 2,000-result limit.", "datePublished": "2026-11-17", "dateModified": "2026-11-17", "author": {"@type": "Organization", "name": "datakit"}, "mainEntityOfPage": "https://datakit457.github.io/blog/export-workday-jobs-to-csv/"}</script><style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#222}a{color:#0b5fff}.t{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}h2{margin:.2rem 0}small{color:#666}</style></head><body><p><a href="/">&larr; datakit</a> · <a href="/blog/">Blog</a></p><h1>Export open jobs from a Workday careers site to CSV (Python)</h1>
+<p><em>Disclosure: I'm the author of the Actor mentioned at the end (datakit/ats-jobs-feed). The script below works without it.</em></p>
+<p>Many large employers run their careers site on Workday, at URLs like <code>https://&lt;company&gt;.wd5.myworkdayjobs.com/&lt;site&gt;</code>. The page itself is a JavaScript app, but it loads its job list from a public JSON endpoint you can call directly: <code>POST https://&lt;host&gt;/wday/cxs/&lt;company&gt;/&lt;site&gt;/jobs</code>. No login or key is needed.</p>
+<h2>The script</h2>
+<pre>import csv, requests
+
+URL = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"   # the company's careers URL
+KEYWORD = "engineer"
+
+host, site = URL.split("/")[2], URL.rstrip("/").split("/")[-1]
+tenant = host.split(".")[0]
+api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+
+jobs, offset, total = [], 0, None
+while True:
+    body = {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": KEYWORD}
+    page = requests.post(api, json=body, timeout=30).json()
+    if total is None:
+        total = page.get("total", 0)   # only the first page carries the real total
+    jobs += [j for j in page.get("jobPostings", []) if j.get("title")]
+    offset += 20
+    if offset &gt;= total or not page.get("jobPostings"):
+        break
+
+with open("jobs.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["title", "locations", "posted", "req_id", "url"])
+    for j in jobs:
+        w.writerow([j["title"], j.get("locationsText"), j.get("postedOn"),
+                    (j.get("bulletFields") or [""])[0], f"https://{host}/{site}{j['externalPath']}"])
+print(len(jobs), "jobs")</pre>
+<p>I ran this against NVIDIA's careers site with the keyword "engineer": 1,999 postings written to <code>jobs.csv</code>. The first row was "Director, Engineering – Software Engineering", 2 locations, posted 30+ days ago.</p>
+<h2>Caveats</h2>
+<ul>
+<li><strong>Only the first page has the real <code>total</code>.</strong> Later pages return <code>total: 0</code>, so read it once, as above. If you loop on each page's <code>total</code>, you stop after 20 jobs.</li>
+<li><strong>2,000 is the ceiling.</strong> Workday never reports more than 2,000 results for one query. If you hit it, narrow the search (<code>searchText</code>) or run several keywords.</li>
+<li><strong><code>limit</code> is 20 at most.</strong> Larger values are rejected.</li>
+<li><strong>Dates are relative.</strong> <code>postedOn</code> is text like "Posted 4 Days Ago" or "Posted 30+ Days Ago", not a timestamp. Store the date you first saw each job if you need history.</li>
+<li><strong>Locations can be a count.</strong> Jobs in several places show "2 Locations". For the full list and the description, call <code>GET https://&lt;host&gt;/wday/cxs/&lt;company&gt;/&lt;site&gt;&lt;externalPath&gt;</code> for each job and read <code>jobPostingInfo</code>.</li>
+<li>Some list entries have no title. Skip them.</li>
+<li>Check the site's <code>robots.txt</code> first (<code>https://&lt;host&gt;/robots.txt</code>); career sites usually allow the main site path.</li>
+</ul>
+<h2>Many companies at once</h2>
+<p>To watch Workday sites together with Greenhouse, Lever, Ashby, Workable and others, with normalized fields and only new jobs on each run, see <code>datakit/ats-jobs-feed</code>. Paste the Workday careers URL into its <code>companies</code> list.</p>
+<p><a href="https://apify.com/datakit/ats-jobs-feed">Apify Store page</a></p>
+</body></html>
